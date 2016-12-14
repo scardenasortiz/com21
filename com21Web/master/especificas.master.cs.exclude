@@ -1,0 +1,95 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using System.Xml;
+using System.Text.RegularExpressions;
+using System.Text;
+
+public partial class master_especificas : System.Web.UI.MasterPage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            this.publicidades.InnerHtml = cargapublicidad();
+            if (Request.Cookies["user"] != null)
+            {
+                HttpCookie bCookie = Request.Cookies["user"];
+                txtusuarios.Value = Server.HtmlEncode(bCookie.Value);
+            }
+            if (chbRecordarme.Checked == true)
+            {
+                HttpCookie aCookie = new HttpCookie("user");
+                aCookie.Value = txtusuarios.Value.Trim();
+                //aCookie.Expires = DateTime.Now.AddDays(1);
+                Response.Cookies.Add(aCookie);
+            }
+            if ((Request.Cookies["IdHMusicalisimo"] != null) && (Request.Cookies["UserHMusicalisimo"] != null) && (Request.Cookies["PassHMusicalisimo"] != null))
+            {
+                //UpdatePanel1.Visible = false;
+                lbNombre.Text = Request.Cookies["UserHMusicalisimo"].Value;
+                Panel1.Visible = true;
+                ServicioCom21.ServicioCom21 _consulta = new ServicioCom21.ServicioCom21();
+                String iUsuario = Request.Cookies["IdHMusicalisimo"].Value;
+            }
+            else
+            {
+                Panel1.Visible = false;
+                //carrito.Visible = false;
+            }
+        }
+    }
+    public string cargapublicidad()
+    {
+        try
+        {
+            string pagina = "Especifico";
+            String cadena = "<div style=\"padding-top: 10px;\">";
+            
+            ServicioCom21.ServicioCom21 _consulta = new ServicioCom21.ServicioCom21();
+            DataSet ds = new DataSet();
+            ds = _consulta.consulta_publicidad_mostrar(pagina);
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                foreach (DataRow dr in ds.Tables[0].Rows)
+                {
+
+                    cadena = cadena + "<div style=\"margin-bottom: 5px;\"><img src=\"" + dr[3].ToString() + "\" width=\"150px\" /></div>";
+                  
+                }
+            }
+            cadena = cadena + "</div>";
+            return cadena;
+        }
+        catch { return null; }
+    }
+    protected void LinkButton1_Click(object sender, EventArgs e)
+    {
+        IrCarrito();
+    }
+
+    protected void btnShop_Click(object sender, ImageClickEventArgs e)
+    {
+        IrCarrito();
+    }
+    private void IrCarrito()
+    {
+        Session["e"] = "ingreso";
+        HttpCookie aCookiePostBackHM = new HttpCookie("PostBackHM");
+
+        aCookiePostBackHM.Value = "Activo";
+        //aCookiePostBackTS.Expires = DateTime.Now.AddDays(1);
+        Response.Cookies.Add(aCookiePostBackHM);
+        Session["Activo"] = "1";
+        Response.Redirect("carritocompras.aspx?p=1");
+    }
+    protected void ImageButton1_Click1(object sender, ImageClickEventArgs e)
+    {
+
+        IrCarrito();
+    }
+}

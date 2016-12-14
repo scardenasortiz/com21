@@ -1,0 +1,52 @@
+.accordion{/*border: 1px solid #ddd; border-top: none;*/ margin: 0px 0; /*float: left;*/ width: 100%; position: relative;}
+.accordion a
+{
+    display: block;
+    text-decoration: none;
+    /*background-color: #0066FF;*/
+}
+/*.accordion h2, .accordion a{background-color: #fff; background-image: url(../img/gradient.jpg);
+background-image: -moz-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -ms-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -o-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -webkit-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: linear-gradient(bottom, #f1f1f1, #fff); border-top: 1px solid #ddd;
+color: #222; font: 14px/30px 'Verdana', sans-serif; height: 30px; margin: 0; padding: 0; text-indent: 10px;}*/
+
+.accordion h2{background-color: #fff; background-image: url(../img/gradient.jpg);
+background-image: -moz-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -ms-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -o-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -webkit-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: linear-gradient(bottom, #f1f1f1, #fff); border-top: 1px solid #ddd;
+color: #000; font: 14px/30px 'Verdana', sans-serif; height: 30px; margin: 0; padding: 0; text-indent: 3px;}
+
+.accordion a
+{
+    color:#000;
+    text-indent: 10px;
+}
+
+p
+{
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+    font: 12px/18px 'Verdana' , sans-serif;
+    padding: 0px;
+    background-color: #E2FCE6;
+    width: 100%;
+}
+
+#accordion-css3{/*float: right;*/}
+a[href^="#accordion"] + *{display: none;}
+#accordion-css3 :target{display: block;}
+
+/* HTML 5 */
+/*#accordion-html5{clear: both; margin-top: 20px;}
+details summary::-webkit-details-marker{display: none;}*/
+
+/* Page styling*/
+/*.accordion:before{color: #F0498D; font-weight: bold; position: absolute; left: 0; top: -20px;}*/
+/*#accordion-js:before{content: 'jQuery Method';}
+#accordion-css3:before{content: 'CSS3 Method';}
+#accordion-html5:before{content: 'HTML5 Method';}*/

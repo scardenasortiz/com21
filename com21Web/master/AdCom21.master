@@ -1,0 +1,243 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdCom21.master.cs" Inherits="master_AdCom21" %>
+
+<%@ Register
+    Assembly="AjaxControlToolkit"
+    Namespace="AjaxControlToolkit"
+    TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Arvo|Nunito:700' rel='stylesheet' type='text/css'>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="icon" href="../images/logocom21icon.png" type="image/x-icon"/>
+
+
+	<link rel="stylesheet" type="text/css" href="../css/themes/base/jquery.ui.all.css" />
+	<link rel="stylesheet" type="text/css" href="../css/layout-default-latest.css" />
+
+	<style type="text/css">
+	/* Using an 'optional-container' instead of 'body', so need body to have a 'height' */
+	html, body {
+		width:		100%;
+		height:		100%;
+		padding:	0;
+		margin:		0;
+		overflow:	hidden !important;
+		
+	}
+	#optional-container {
+		width:			100%;
+		height:			100%;
+		margin-top:		0%;
+		margin-left:	0%;
+	}
+	.ui-layout-center { overflow: hidden; }
+	            
+
+}	
+    .curveds
+    {
+        height:25px;
+	width:45%;
+	padding:0px 0px 0px 2px;
+	border:1px solid #BEBEBE;
+	background-color: #E2FCE6;
+	color:gray;
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+    }
+    .details{ margin:10px 20px; -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;} 
+    .watermarked {
+	height:25px;
+	width:45%;
+	padding:0px 0px 0px 2px;
+	border:1px solid #BEBEBE;
+	background-color: #E2FCE6;
+	color:gray;
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+}	
+.ddlcurve
+{
+    border:solid 1px #BEBEBE;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background-color: #E2FCE6;
+}
+.bordebotones
+{
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.btncurve
+{
+    border:solid 1px #BEBEBE;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+	</style>
+    <%--<script type="text/javascript" src="../js/jquery-1.2.6.js"></script>--%>
+	<script type="text/javascript" src="../js/jquery-latest.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui-latest.js"></script>
+	<script type="text/javascript" src="../js/jquery.layout-latest.js"></script>
+	<!-- theme switcher -->
+    
+	<script type="text/javascript" src="../js/debug.js"></script>
+    <script type="text/javascript" src="../js/themeswitchertool.js"></script> 
+    
+	<script type="text/javascript">
+	    var myLayout;
+
+	    $(document).ready(function () {
+
+	        $("#tabs_div").tabs();
+
+	        $(".header-footer").hover(
+			function () { $(this).addClass('ui-state-hover'); }
+		, function () { $(this).removeClass('ui-state-hover'); }
+		);
+
+	        myLayout = $('#optional-container').layout();
+
+	    
+
+	    });
+	</script>
+
+<link rel="stylesheet" type="text/css" href="../css/style_accordion.css" />
+</head>
+<body>
+ 
+    <div id="optional-container">
+    <form id="form1" runat="server">
+    <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" EnableScriptGlobalization="true" EnableScriptLocalization="True" runat="server">
+        </ajaxToolkit:ToolkitScriptManager>
+	<div class="ui-layout-north" 
+        style="padding-top: 0px; background-color: #fff; font-weight: bold; font-size: 14px; background-image: url('../images/bgCover.png'); background-repeat: repeat;">
+        <table style="width: 100%; border-spacing:0px;">
+            <tr>
+                <td style="width:5%; text-align:left; border-spacing: 0px;">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logocom21icon.png" 
+                        Width="95px" />
+                </td>
+                <td style="width:55%; text-align:left; font-size: 22px; font-family: Tahoma; border-spacing: 0px; vertical-align:middle; color:#ffffff;">
+                    Administrador
+                </td>
+                <td style="width:5%; text-align:right; padding-right: 2px; border-spacing: 0px; color:#ffffff; vertical-align: middle;">
+                    <asp:ImageButton ID="imgVentas" runat="server" ImageUrl="~/images/cart_admin.png" 
+                        Height="37px" Width="37px" ToolTip="Ver Ventas" 
+                        onclick="ImageButton2_Click" />
+                </td>
+                <td style="width:6%; text-align:left; padding-right: 2px; border-spacing: 0px; color:#ffffff; vertical-align: middle;">
+                    <asp:ImageButton ID="imgEmailNL" runat="server" 
+                        ImageUrl="~/images/mail_1.png" Height="37px" Width="37px" 
+                        ToolTip="Ver Correos" onclick="ImageButton4_Click" />
+                </td>
+                <td style="width:3%; text-align:right; padding-right: 2px; border-spacing: 0px;">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/images/users.png" Width="37px" Height="37px" />
+                </td>
+                <td style="width:17%; text-align:left; padding-right: 20px; font-family: Tahoma; border-spacing: 0px; vertical-align:middle; color:#ffffff;">
+                <asp:Label ID="lbluser" runat="server"></asp:Label>, &nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="lblsalir" runat="server" 
+                        PostBackUrl="~/administrador/CerrarSesion.aspx" Font-Size="10pt" 
+                        ForeColor="#999999">salir</asp:LinkButton>
+                </td>
+            </tr>
+        </table>
+	</div>
+     
+	<div id="tabs_div" class="ui-layout-center" runat="server" style="overflow: auto">
+   
+    
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+		
+	
+    </div>
+	<div id="opciones" runat="server" class="ui-layout-west" style="padding: 0px">
+    <!--accordion-->
+    
+<%--<div id="accordion-js" class="accordion">
+	<h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Costo de Envio</h2>
+	<p>
+    <a href="pais.aspx" style="font-size: 12px">Pais</a>
+    <a href="provincia.aspx" style="font-size: 12px">Provincias</a>
+    <a href="ciudad.aspx" style="font-size: 12px">Ciudades</a>
+    <a href="costoenvio.aspx" style="font-size: 12px">Costo de Envio</a>
+    </p>
+	<h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Empresa</h2>
+    <p>
+    <a href="empresa.aspx" style="font-size: 12px">Sucursales</a>
+	<a href="nosotro.aspx" style="font-size: 12px">Nosotros</a>
+    <a href="misionvision.aspx" style="font-size: 12px;">Misión y Visión</a>
+    </p>
+    <h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Productos</h2>
+	<p>
+    <a href="categoria.aspx" style="font-size: 12px">Categoria</a>
+    <a href="subcategoria.aspx" style="font-size: 12px">Sub-Categoria</a>
+    <a href="marca.aspx" style="font-size: 12px">Marca</a>
+    <a href="items.aspx" style="font-size: 12px">Ingreso de producto</a>
+    <a href="asignarproducto.aspx" style="font-size: 12px">Asignar productos</a>
+    <a href="imagenes.aspx" style="font-size: 12px">Imagenes de producto</a>
+    </p>
+    <h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Transacciones</h2>
+	<p>
+    <a href="items.aspx" style="font-size: 12px">Consultar</a>
+    </p>
+    <h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Reportes</h2>
+	<p>
+    <a href="rproductos.aspx" style="font-size: 12px">Productos</a>
+    <a href="rtransacciones.aspx" style="font-size: 12px">Transacciones</a>
+    </p>
+    <h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Galería Fotográfica</h2>
+	<p>
+    <a href="galeriafoto.aspx" style="font-size: 12px">Imagenes</a>
+    </p>
+<%--    <h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Videos Promocionales</h2>
+	<p>
+    <a href="videospro.aspx" style="font-size: 12px">Videos</a>
+    
+    </p>--%>
+    <%--<h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Usuarios Administradores</h2>
+	<p>
+    <a href="usuadministrador.aspx" style="font-size: 12px">Nuevo Usuario</a>
+    <a href="perfil.aspx" style="font-size: 12px">Asignar Perfil</a>
+    <a href="claves.aspx" style="font-size: 12px">Cambiar Claves</a>
+    </p>
+    <h2 style="font-family: Tahoma; color: #0066CC; font-weight: normal; font-size: 15px;">Usuarios Clientes</h2>
+	<p>
+    <a href="usucliente.aspx" style="font-size: 12px">Consultas Usuario</a>
+    </p>--%>
+</div>
+
+
+    <!--accordion-->
+    
+    
+    </div>
+    <%--<script type="tex/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<script>    window.jQuery || document.write("<script src='http://css-plus.com/examples/2011/js/libs/jquery-1.6.3.min.js'>\x3C/script>")</script>--%>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#accordion-js').find('h2').click(function () {
+            $(this).next().slideToggle();
+        }).next().hide();
+    });
+</script>
+	<div class="ui-layout-south" style="background-color: #fff; font-weight: bold; font-size: 12px;">Copy - Todos los derechos reservados </div>
+     </form>
+</div>
+        
+       
+</body>
+</html>

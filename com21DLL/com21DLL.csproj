@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com21DLL</RootNamespace>
+    <AssemblyName>com21DLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NPOI">
+      <HintPath>C:\Users\Erick\Desktop\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classAccesorios.cs" />
+    <Compile Include="classAdministrador.cs" />
+    <Compile Include="classCom21App.cs" />
+    <Compile Include="classAgencias.cs" />
+    <Compile Include="classAlbum.cs" />
+    <Compile Include="classAutocompletador.cs" />
+    <Compile Include="classCancion.cs" />
+    <Compile Include="classCancionero.cs" />
+    <Compile Include="classCorreo.cs" />
+    <Compile Include="classDvdmusicales.cs" />
+    <Compile Include="classInstrumentos.cs" />
+    <Compile Include="classLongplay.cs" />
+    <Compile Include="classMD5.cs" />
+    <Compile Include="classMp3Imagen.cs" />
+    <Compile Include="classCom21Nosotros.cs" />
+    <Compile Include="Com21classPrefactura.cs" />
+    <Compile Include="classRandom.cs" />
+    <Compile Include="classServicios.cs" />
+    <Compile Include="classCom21Slide.cs" />
+    <Compile Include="classSuscriptores.cs" />
+    <Compile Include="classTrans.cs" />
+    <Compile Include="classUsuario.cs" />
+    <Compile Include="classVideoYoutube.cs" />
+    <Compile Include="classCom21Porvincias.cs" />
+    <Compile Include="classCom21MisionVision.cs" />
+    <Compile Include="classCom21Categoria.cs" />
+    <Compile Include="classCom21Imagenes.cs" />
+    <Compile Include="classCom21Ciudad.cs" />
+    <Compile Include="classCom21Costo.cs" />
+    <Compile Include="classCom21SubCategoria.cs" />
+    <Compile Include="classCom21Marca.cs" />
+    <Compile Include="classCom21Administrador.cs" />
+    <Compile Include="classCom21Pais.cs" />
+    <Compile Include="classCom21Empresa.cs" />
+    <Compile Include="classCom21Perfil.cs" />
+    <Compile Include="classCom21Producto.cs" />
+    <Compile Include="classCom21PromoPubli.cs" />
+    <Compile Include="classCom21Servicios.cs" />
+    <Compile Include="classCom21Random.cs" />
+    <Compile Include="classCom21Reportes.cs" />
+    <Compile Include="classCom21Inventario.cs" />
+    <Compile Include="classCom21Cliente.cs" />
+    <Compile Include="classCom21Tags.cs" />
+    <Compile Include="classCom21CategoriaServicios.cs" />
+    <Compile Include="classCom21Noticias.cs" />
+    <Compile Include="classCom21Correo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="com21DLL.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

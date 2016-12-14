@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+
+public partial class master_usuario : System.Web.UI.MasterPage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+
+            if (Request.Cookies["user"] != null)
+            {
+                HttpCookie bCookie = Request.Cookies["user"];
+                txtusuarios.Value = Server.HtmlEncode(bCookie.Value);
+            }
+            if (chbRecordarme.Checked == true)
+            {
+                HttpCookie aCookie = new HttpCookie("user");
+                aCookie.Value = txtusuarios.Value.Trim();
+                //aCookie.Expires = DateTime.Now.AddDays(1);
+                Response.Cookies.Add(aCookie);
+            }
+            if ((Request.Cookies["IdHMusicalisimo"] != null) && (Request.Cookies["UserHMusicalisimo"] != null) && (Request.Cookies["PassHMusicalisimo"] != null))
+            {
+                //UpdatePanel1.Visible = false;
+                //lbNombre.Text = "Hola, " + Request.Cookies["UserHMusicalisimo"].Value;
+                //Panel2.Visible = true;
+                ServicioCom21.ServicioCom21 _consulta = new ServicioCom21.ServicioCom21();
+                String iUsuario = Request.Cookies["IdHMusicalisimo"].Value;
+            }
+            else
+            {
+                //Panel2.Visible = false;
+                //carrito.Visible = false;
+            }
+        }
+    }
+
+   
+}

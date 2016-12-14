@@ -1,0 +1,1765 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='../../../opengraphprotocol.org/schema/index.html'>
+
+<!-- Mirrored from vagabundia.blogspot.com/2010/09/menu-vertical-desplegable-solo-con-css.html by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 06 May 2013 04:19:19 GMT -->
+<!-- Added by HTTrack -->
+<style type='text/css'>#expandirBCK {display:none;}</style>
+
+<style>
+form.gsc-search-box { position: relative;}
+table td.gsc-input {left: 30px;padding: 0 !important;position: absolute;top: 0;}
+table input.gsc-input {background-position:20px 5px !important;border: 1px solid #D0D9E1 !important;border-radius: 4px 4px 4px 4px;box-shadow: 0 0 5px #101921 inset;color: #000000;font-family: Tahoma;height: 1.5em;line-height: 1.5em;margin: 0;padding: 2px !important;text-align: center;width: 200px !important;}
+table td.gsc-clear-button {position: absolute;right: 0;top: 3px;}
+table td.gsc-search-button {left: 40px;position: absolute;top: 38px;}
+table input.gsc-search-button {
+    border: 1px solid #A0A9B1;
+        color: #112233;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0;
+        padding: 1px 20px;
+        text-shadow: 1px 1px 1px #FFFFFF;
+        text-transform: lowercase;
+        border-radius: 4px;
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#FFFFFF), to(#444F5A));
+    }
+table td.gsc-branding-text {position: absolute;right: 0;top: 35px;}
+table div.gsc-branding-text {color: #808991;}
+table td.gsc-branding-img {position: absolute;right: 20px;top: 50px;}
+table.gsc-completion-container {color: #000;}
+</style><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta content='IE=8' http-equiv='X-UA-Compatible'/>
+<script type='text/javascript'>
+//<![CDATA[
+  (function(){
+    var esTRADUCIR = top.location.href.indexOf("://translate.googleusercontent.com/translate_c");
+    if(esTRADUCIR!=-1){
+      // NADA
+    }else{
+      if( document.URL.match(/\.blogspot\.(com\...\/|..\/)/) ){
+        var URL = document.URL
+        URL = URL.replace(URL.match(/\.blogspot\.(com\...\/|..\/)/)[0],".blogspot.com\/ncr\/")
+        document.location = URL
+      }
+    }
+  })()
+//]]>
+</script>
+<!-- <script type='text/javascript'> //<![CDATA[ var laURL, blogger; laURL= window.location.href; blogger = laURL.indexOf("token="); if(blogger==-1) { if (top.location != self.location) { top.location = self.location; } } //]]> </script> -->
+<meta content='all,index,follow' name='robots'/>
+<title>Menú vertical desplegable sólo con CSS : Vagabundia</title>
+<meta content='Menú vertical desplegable sólo con CSS' property='og:title'/>
+<meta content='Menú vertical desplegable sólo con CSS' itemprop='name'/>
+<meta content='http://2.bp.blogspot.com/_hljKDuw-cxQ/TDTwvkrBe7I/AAAAAAAAP-I/93pkLlddkoI/s72-c/324.png' property='og:image'/>
+<meta content='http://2.bp.blogspot.com/_hljKDuw-cxQ/TDTwvkrBe7I/AAAAAAAAP-I/93pkLlddkoI/s72-c/324.png' itemprop='image'/>
+<meta content='Menú vertical desplegable sólo con CSS. Recursos, trucos, plantillas y tutoriales para Blogger en español.' property='og:description'/>
+<meta content='blog' property='og:type'/>
+<meta content='blogger,plantillas para blogger,trucos,hacks,html,css,javascript,blogs,recursos para blogs,blogspot,wallpapers,scripts,español,internet,tips,plantillas,header,sidebar,posts,humor,widgets,gadgets,google,animaciones, youtube,aplicaciones google' name='keywords'/>
+<meta content='Vagabundia en Blogger' property='og:site_name'/>
+<!-- <meta expr:content='data:blog.url' property='og:url'/> -->
+<meta content='http://vagabundia.blogspot.com/2010/09/menu-vertical-desplegable-solo-con-css.html' property='og:url'/>
+<meta content='100000012621457' property='fb:admins'/>
+<meta content='141675619227132' property='fb:app_id'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,e="jstiming",g="tick";(function(){function d(a){this.t={};this.tick=function(a,d,c){c=void 0!=c?c:(new Date).getTime();this.t[a]=[c,d]};this[g]("start",null,a)}var a=new d;b.jstiming={Timer:d,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b[e].load,f=a.navigationStart,a=a.responseStart;0<f&&a>=f&&(c[g]("_wtsrt",void 0,f),c[g]("wtsrt_","_wtsrt",a),c[g]("tbsd_","wtsrt_"))}try{a=null,b.chrome&&b.chrome.csi&&(a=Math.floor(b.chrome.csi().pageT),c&&0<f&&(c[g]("_tbnd",void 0,b.chrome.csi().startE),
+c[g]("tbnd_","_tbnd",f))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<f&&(c[g]("_tbnd",void 0,b.external.startE),c[g]("tbnd_","_tbnd",f))),a&&(b[e].pt=a)}catch(l){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[e].load[g]("aft")};var h=!1;function k(){h||(h=!0,b[e].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",k,!1):b.attachEvent("onscroll",k);
+ })();</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='../../favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='menu-vertical-desplegable-solo-con-css.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Vagabundia - Atom" href="../../../feeds.feedburner.com/Vagabundia" />
+<link rel="alternate" type="application/rss+xml" title="Vagabundia - RSS" href="../../../feeds.feedburner.com/Vagabundia?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Vagabundia - Atom" href="../../../www.blogger.com/feeds/33571139/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../www.blogger.com/rsd1825.g?blogID=33571139" />
+<link rel="alternate" type="application/atom+xml" title="Vagabundia - Atom" href="../../feeds/6124319751559582490/comments/default" />
+<link rel="image_src" href="../../../2.bp.blogspot.com/_hljKDuw-cxQ/TDTwvkrBe7I/AAAAAAAAP-I/93pkLlddkoI/s72-c/324.png" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<meta content='c5D4gBxFQS0MMaZV7xoJ50p4xMLfYL/Gi3pz+JqEfgA=' name='verify-v1'/>
+<meta content='15ccb81a8455d256' name='y_key'/>
+<meta content='F6B304A61FCA47D38DD0D046FE0B669D' name='msvalidate.01'/>
+<meta content='92991A7EC2CCC19FA26D05AAC59B3093' name='msvalidate.01'/>
+<meta content='JMiur' name='author'/>
+<meta content='Spanish' http-equiv='content-language'/>
+<meta content='General' name='rating'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<link href='../../../feeds.feedburner.com/Vagabundia' rel='alternate' title='Vagabundia - Syndication Feed' type='application/atom+xml'/>
+<link href='../../../www.myopenid.com/server.html' rel='openid.server'/>
+<link href='../../../jmiur.myopenid.com/index.html' rel='openid.delegate'/>
+<link type='text/css' rel='stylesheet' href='../../../www.blogger.com/static/v1/widgets/1832531788-widget_css_bundle.css' />
+<link type="text/css" rel="stylesheet" href="../../../www.blogger.com/dyn-css/authorization1c3c.css?targetBlogID=33571139&amp;zx=edec9b24-0570-41ea-9fc8-54e54dd4ba68"/>
+<style id='page-skin-1' type='text/css'><!--
+/*
+BASE: Blogger Template Style Minima Black
+ORIGINAL: Blogger Theme Beckett  Source Typepad adaptada a Blogger Beta por JAVSoft - 2006
+*/
+/* Definicion de variables (Font and Colors)
+<Variable name="bgcolor" description="Page Background Color" type="color" default="#343F4A">
+<Variable name="textcolor" description="Text Color" type="color" default="#DDDDDD">
+<Variable name="linkcolor" description="Link Color" type="color" default="#778899">
+<Variable name="pagetitlecolor" description="Blog Title Color" type="color" default="#FFFFFF">
+<Variable name="titlecolor" description="Post Title Color" type="color" default="#99AABB">
+<Variable name="bordercolor" description="Border Color" type="color" default="#FFFFFF">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color" default="#FFFFFF">
+<Variable name="sidebartextcolor" description="Sidebar Text Color" type="color" default="#CCCCCC">
+<Variable name="visitedlinkcolor" description="Visited Link Color" type="color" default="#778899">
+<Variable name="bodyfont" description="Text Font" type="font"
+default="normal normal 80% Trebuchet MS,Trebuchet,Helvetica,Arial,Sans-serif">
+final definicion de variables */
+/* Declaraciones generales */
+* {margin:0;padding:0;}
+body {background-color:#343F4A;color:#DDD;font-family:Trebuchet MS,Trebuchet,Helvetica,Arial,Verdana,sans-serif;font-size:12px;margin:0;min-width:970px;padding:0;text-align:center;}
+.clear {clear:both;line-height:0;height:0;}
+#navbar-iframe {height:0;visibility:hidden;display:none;}
+a, a:visited, a:link  {color:#BCD; outline:none;text-decoration:none;}
+a:hover {color:#DEF;outline:none;text-decoration:none;}
+a img {border:none;outline:none; text-decoration:none;}
+object, embed {outline:none;}
+h1, h2, h3, h4, h5, h6 {font-family:Trebuchet MS,Helvetica,Arial, sans-serif;margin:10px 0;}
+p, ol, ul {margin:10px 0;}
+::-moz-selection {background:#ABC;color:#000;}
+::selection {background:#ABC;color:#FFF; }
+.simgvaga001 {background:transparent url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat 0 0;}
+.simgvaga002 {background:transparent url(http://3.bp.blogspot.com/_hljKDuw-cxQ/S-x_QyzNEEI/AAAAAAAAPus/OJ79zgI-QWg/s00/simgvaga002.png) no-repeat 0 0;}
+/* Contenedores */
+#outer-wrapper {background-color:#212A33;margin:0 auto;position:relative;text-align:left;width:970px;}
+#wrap2 {border-bottom:1px solid #5B626A;padding:0 10px;position:static;width:auto;}
+/* Header */
+#header-wrapper {background:transparent url(http://1.bp.blogspot.com/_hljKDuw-cxQ/S8aFkHMAQUI/AAAAAAAAPfU/totak_z2_F4/s00/vagaPlantilla_header.jpg) no-repeat;height:175px;padding-top:20px;position:relative; width:950px;}
+#header h1, #header h1 a {display:none;}
+/* Menu Solapas */
+.solidblockmenu {border-bottom: 1px solid #000;
+        border-radius: 10px;
+        box-shadow: 0 0 1px #DEF inset;
+        float: left;
+        height: 36px;
+        margin: 10px auto;
+        padding: 0 20px;
+        position: relative;
+        width: 910px;
+        background-image: linear-gradient(#444F5A,#202020);
+    }
+.solidblockmenu li {position: relative;float: left;margin: 5px 0 0 0;padding: 2px;text-align: center;border: 1px solid transparent;list-style-type: none;}
+.solidblockmenu a {color: #EEE;padding: 0 10px;font-family: Arial,Helvetica,sans-serif;font-size: 14px;font-weight: normal;text-shadow: 1px 1px 1px #000;}
+.solidblockmenu li:hover {border: 1px solid #505961;
+        border-radius: 5px;
+        background-image: linear-gradient(#606971, #404951);
+    }
+li.menuExtras {position: absolute;right: 0;top: 0;}
+li.menuExtras:hover {background: none;}
+/* Contenedores */
+#content-wrapper {background-color:#101921;position:relative;width:100%;}
+#content-wrapper-inner {position:static;width:100%;}
+#main-wrapper {display:inline;float:left;margin:20px 0 20px 20px;min-height:1px;overflow:hidden;position:relative;width:635px;word-wrap:break-word;}
+#sidebar-wrapper {display:inline;float:left;margin-left:25px;min-height:1px;overflow:hidden;position:relative;width:250px;word-wrap:break-word;}
+/* la fecha de los posts */
+.lafecha {display:block;font-family:Verdana,Arial;font-weight:normal;height:auto;left:0;line-height:18px;padding-top:10px;position:absolute;text-align:center;top:0;width:45px;}
+.lafechaDia {color:#789; display:block;font-family:'Times New Roman';font-size:41px;letter-spacing:-2px;}
+.lafechaMes {color:#DDD;display:block;font-size:16px;}
+.lafechaAnio {color:#789;display:block;font-family:Garamond,Lucida Grande;font-size:14px;margin-top:-3px;}
+/* titulo de los posts */
+.post .elEncabezado {height:60px;margin:12px 0 24px;position:relative;width:100%;}
+h1.post-title {border-bottom:1px dotted #9AB;font-size:22px;left:60px;margin:0;padding:0 0 25px;position:absolute;top:0;width:575px;}
+h1.post-title a, .post h1 a:visited {color:#9AB;font-family:Century Gothic,Trebuchet MS,sans-serif;font-size:24px;font-weight:normal;letter-spacing:-0.05em;}
+h1.post-title a:hover {color:#BCD;}
+.post .elAutor {color:#9AB;position:absolute;right:0;top:38px;}
+/* contenido de las entradas */
+.post-body {clear:both;font-size:14px; }
+.post-body a, .post-body a:visited, .post-body a:link {color:#BCD;font-family:Tahoma;font-size:12px;font-weight:bold;}
+.post-body a:hover {color:#DEF;font-weight: bold;}
+.post-body ul {list-style-type:none;margin-left:30px;}
+ul.lista li  {background: transparent url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat -285px -178px;padding-left:12px; padding-bottom: 5px;}
+ul.rss-items li {background: transparent url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat -285px -178px;padding-left:12px;}
+ol.lista li {list-style-type:decimal;margin-left:50px;}
+/* el pie de pagina de las entradas */
+.post-footer {background-color:#171E27;border-bottom:1px dotted #345;border-top:1px dotted #345;clear:both;font-size:11px;font-weight:normal;margin:25px 0 50px;padding:3px 10px 5px;}
+.post-footer a, .post-footer a:link, .post-footer a:visited {color:#789;font-weight:bold;}
+.post-footer a:hover {color:#9AB;}
+.post-footer-line-2 {clear:both;}
+/* citas */
+.post-body blockquote {
+box-shadow:0 0 10px #707881;background-color:#171E27;border-left:4px solid #303941;border-right:4px solid #303941;color:#DFDFDF;font-family:Arial;font-size:12px;line-height:1.3em;margin:15px auto;padding:20px;max-width:550px !important;text-align:justify;width:550px;}
+.post-body blockquote a, .post-body blockquote a:visited, .post-body blockquote a:link {color:#FFF;}
+.post-body blockquote a:hover, .post-body blockquote a:active {border-bottom:1px dotted #AAA;}
+/* bloques ,code, .code */
+pre {border-left:4px solid #212A33;color:#EEE;font-family:Lucida Grande,Arial,Trebuchet MS;font-size:13px;line-height:17px;margin:15px 0 15px 10px;padding:10px;white-space:pre-wrap;}
+/* referencias externas */
+.referenciaExterna {border-left:3px solid #373E47;color: #ABC;font-family:Tahoma;font-size:12px;padding:2px 0 5px 5px;}
+.referenciaExterna span {background:transparent url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat -273px -48px;color:#789;display:block;font-weight:bold;height:16px;line-height:16px;padding-left:18px;}
+.referenciaExterna a {padding-left:10px;}
+/* navegacion de entradas */
+#blog-pager {background-color:#0E151D;border-bottom:1px dotted #345;border-top:1px dotted #345;font-family:Lucida Grande, Times New Roman;font-size:20px;height:28px;line-height:28px;margin:40px auto 0;padding:0 25px;text-align:center;}
+#blog-pager a {color:#89A;}
+#blog-pager a:hover {color:#ABC;}
+#blog-pager-newer-link {float:right; width:80px;}
+#blog-pager-older-link {float:left;width:80px;}
+/* feeds */
+.blog-feeds {clear:both;}
+.feed-links {clear:both;font-family:Lucida Grande,Times New Roman;font-size:20px;height:32px;line-height:32px;margin-top:40px;text-align:right;}
+.feed-links a {color:#89A;}
+.feed-links a:hover {color:#ABC;}
+.feed-links span {background-position:-257px -120px;float:right;height:32px;margin-left:10px;width:32px;}
+/* vinculos de retroceso */
+#backlinks-container {clear:both;margin-top:20px;}
+/* Elementos columna de la derecha */
+.sidebar {color:#BCD;overflow:hidden;position:relative;width:100%;}
+.sidebar .widget {padding:5px 0;}
+.sidebar a {color:#BBB;}
+.sidebar a:hover {color:#CDE;}
+.sidebar h2, #tablaArchivos, #comments h4 {color:#606971;font-family:Lucida Grande,Times New Roman;font-size:22px;height:32px;line-height:32px;margin:10px 0;padding-right:15px;position:relative;text-align:right;text-transform:lowercase;width:auto;background-image: linear-gradient(#404951,#000);
+    }
+.sidebar h2 span {color:#808991;}
+.sidebar ul {list-style:none;margin:0;padding:0;}
+.sidebar li {background:transparent url() no-repeat 0 0;font-size:11px;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0 10px;}
+.sidebar li:hover {background-color:#171E27;}
+.sidebar li a, .sidebar li a:link, .sidebar li a:visited {color:#BBB;}
+.sidebar li a:hover {color:#DDD;}
+/* Contenedor Footer Oculto */
+#footer-wrapper-hidden {background-color:#101921;clear:both;height:90px;padding-top:10px;width:950px;}
+#footer-hidden {width:100%;}
+table#tFooter {border-collapse:collapse;height:90px;width:950px;}
+table#tFooter td {margin:0; padding:0;}
+table#tFooter td.contenidoSolapas {padding-left:15px;vertical-align:middle;}
+table#tFooter td.contenidoSolapas a {display:block;line-height:1em;}
+table#tFooter td.enlaceSolapas {vertical-align:bottom;}
+table#divFooter1 td, table#divFooter2 td, table#divFooter3  td {padding:0 8px;}
+.solapaFooter {height:75px;padding:5px;text-align:center;vertical-align:middle;}
+a.solapafooter1,a.solapafooter2 {float:right;height:16px;}
+a.solapafooter1 {background-position:0px -32px;width:92px;}
+a.solapafooter2 {background-position:-92px -32px;width:70px;}
+/* Contenedor Footer Visible */
+#footer-wrapper {clear:both;color:#999;line-height:32px;height:32px;width:950px;background-image: linear-gradient(#404951,#000);
+    }
+#footer {padding:0 25px;}
+#footer-wrapper a {color:#789;}
+#footer-wrapper a:hover {color:#9AB;}
+/* BUSCADOR */
+#CustomSearch1 {border-radius:10px;
+background: -webkit-gradient(linear, left bottom, left top, from(rgba(128, 128, 128, 0)), to(#848F9A));background:linear-gradient(100% 100% 120deg, rgba(128, 128, 128, 0), #848F9A) repeat 0 0 transparent;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#848F9A', EndColorStr='#000000');
+border:none;height:75px;margin-top:25px;position:relative;}
+/* QUIEN SOY  */
+#quiensoy {background:transparent url(http://1.bp.blogspot.com/_hljKDuw-cxQ/RYRftQuhGfI/AAAAAAAAABg/nD0WwVceCcg/s00/VAGAmundiaVertical.png) no-repeat left top;height:400px;margin:25px 0 5px 0;position:relative;}
+.imgPerfil {background-position:0px -107px;border:2px solid #FFF;float:right;height:70px;margin-right:7px;width:70px;}
+#perfil {float: left; position: relative; margin-left: 75px; text-align: right; width: 80px;}
+span.nombrePerfil {background-position:-32px 0;height:16px;left:25px;position:absolute;width:16px;}
+a.nombrePerfil {font-size:15px;font-family:sans-serif;font-weight:normal;line-height:15px;}
+a.bioPerfil {border-bottom:1px solid #303941;border-top:1px solid #303941;clear:both;display:block;font-family:Tahoma;font-size:12px;margin:0 0 0 135px;padding:1px 3px 3px;width:100px;}
+a.bioPerfil:hover {background-color:#122931;color:#CDF;}
+a#mailPerfil {background-position:0px -65px;display:block;height:21px;margin:15px 0 0 80px;width:169px;}
+a#mailPerfil:hover {background-position:0px -86px;}
+#fbForm {margin:25px 0 0 80px;padding:0;position:relative;width:170px;}
+#fbForm a.fbSuscribe {background-position:-225px -120px;display:block;height:32px;left:15px;position:absolute;top:0;width:32px;}
+#fbForm a.fbSuscribe:hover {color: #CDE;}
+#fbForm input.fbTexto {border-radius:5px;background-color:#202931;border:1px solid #303941;color:#EEE;height:16px;padding:2px;position:absolute;right:0;top:70px;width:164px;}
+#fbForm input.fbBoton {border-radius:5px;box-shadow:0 0 14px #888 inset;background-color:#101921;border:none;color:#AAA;cursor:pointer;font-size:10px;height:21px;left:50px;padding:1px 15px 3px;position:absolute;top:100px;}
+#fbForm a.fbContador {display:block;position:absolute;right:15px;top:5px;}
+#fbfanbox {border-top:1px solid #666;margin:25px 5px 5px;overflow:hidden;padding:0;width:240px;}
+iframe.fb_ltr {position:absolute;top:-1px;}
+/* Elemento Sidebar COMENTARIOS RECIENTES  */
+#ultimosComentarios li {border-bottom:1px dotted #234;padding:2px 0;}
+#ultimosComentarios li span {background-position:-128px 0;float:left;height:16px;margin-right:5px;width:16px;}
+#ultimosComentarios li:hover {background-color:#171E27;}
+#ultimosComentarios a, #ultimosComentarios a:link, #ultimosComentarios a:visited {clear:both;color:#BBB;display:block;padding-left:20px;}
+#ultimosComentarios a:hover {color:#DDD;}
+#ultimosComentarios li ul li {margin: 0;}
+/* Elementos LISTA DE ENLACES en Sidebar */
+.LinkList li {margin:2px 0;}
+/* AUTOPROMO */
+#vagaBanners, #vagaWidgets, #vagaHTMLElemental {background-color:#0E151D;border-bottom:1px dotted #345;border-top:1px dotted #345;color:#89A;cursor:pointer;font-family:Verdana,Georgia,Helvetica;font-size:12px;margin:5px 0;padding:4px 0 4px 10px;}
+#vagaBanners:hover, #vagaWidgets:hover,#vagaHTMLElemental:hover {background-color: #1E252D;}
+.banners div {color:#89A;margin:10px 0 10px 15px;}
+.banners span {padding:0 5px;width:120px;}
+.banners select {border:2px solid #BCD;padding:0 2px;width:90px;}
+.banners textarea {border:2px solid #BCD;font-family:Arial;font-size:11px;height:85px;line-height:normal;padding:5px;width:220px;}
+.banners p {margin:5px 0;text-align:center;}
+.ejemploBanner {margin:0 auto 20px;text-align:center;}
+#PromoWidget table img {box-shadow:0 0 14px #888;}
+#PromoWidget table input {border-radius:5px;box-shadow:0 0 14px #888 inset;background-color:#101921;border:none;color:#AAA;cursor:pointer;font-size:10px;height:21px;padding:1px 15px 3px;}
+#addPlugin1, #addPlugin2 {text-align:center;vertical-align:middle;width32px;}
+a.avatarP {background-position:0px 0px;display:block;height:16px;margin:0 auto;width:16px;}
+.navegador {display:block;height:24px;width:24px;}
+/* TRADUCCION */
+#traduccion {border:1px solid #345;font-weight:bold;height:100%;padding:5px 0 0;position:relative;text-align:center;}
+#traduccion a {height:16px;margin-left:5px;position:absolute;width:20px;}
+a.flagUK {background-position:-246px -32px;}
+a.flagBR {background-position:-266px -32px;}
+/* ELEMENTO LABEL */
+#Label1 a {font-weight:normal;}
+#labelCloud {font-family:Arial,sans-serif; text-align: center;}
+#labelCloud .label-cloud li {background-image:none !important;border:none !important;display:inline;margin:0;padding:0 5px;vertical-align:baseline !important;}
+#labelCloud ul {list-style-type:none;margin:0 auto;padding:0;}
+#labelCloud a img {border:none;display:inline;margin:0 0 0 3px;padding: 0;}
+#labelCloud a:hover{color:#9AB !important;}
+#labelCloud .label-count {color:#000;font-size:9px;padding-left:0.2em;}
+/* ELEMENTO ARCHIVOS */
+#tablaArchivos {width:100%;}
+#tablaCerrarArchivos {border-bottom:2px solid #2E353D;border-top:1px solid #4E555D;color:#ABC;font-family:Verdana,Georgia,Helvetica;font-size:10px;margin:5px 0 0 0;padding:4px 30px;width:98%;}
+a#manejaArchivos {background-position:0px -48px;display:block;height:17px;width:17px;}
+#BlogArchive1 {display:none;padding:0;}
+#ArchiveList a {font-weight: normal;}
+/* BANNERS PROMOS */
+a.promos {display:block;height:50px;margin:15px 0;width:220px;}
+a.promos:hover {border-radius:10px;box-shadow:0px 0px 10px #505961 inset;}
+/* hacks varios sobre los backlinks */
+a.blogthis {background-position: 0px -16px;float:left;height:16px;margin-top:8px;width:91px;}
+a#expandirBCK {background-position:0px -48px;float: right; margin-top: 10px;height:17px;width:17px;}
+a.backlinkTitulo, a.backlinkTitulo:visited {color:#789;font-weight: normal;}
+a.backlinkTitulo:hover {color:#9AB;}
+span.backlinkContenido {display:block;background-color:#1E252D;margin:7px 7px 7px 20px; padding:10px;text-align:justify;width:90%;}
+span.backlinkAutor {color:#9AB;font-family:Tahoma;font-size:12px;padding:10px 25px 0 0;text-align:right;}
+span.backlinkFecha {color:#9AB;font-size:10px;text-align:right;}
+/* BLOGGER: page structure tweaks for layout editor wireframe */
+body#layout #header {margin-left: 0;margin-right: 0;}
+/* Imagenes */
+img.izquierda {float:left;padding:0 10px 0 0;}
+img.derecha {float:right; padding:0 0 0 10px;}
+img.centrada {display:block;margin:10px 0;text-align:center;}
+/* Pseudo-popups */
+.boxtitulo, .boxcerrar {height: 32px;line-height:32px;background-image: linear-gradient(100% 100%  90deg, #000000, #404951);
+    }
+.boxtitulo {text-align:center;}
+.boxcerrar a {background-position:-254px 0;float:right;height:9px;margin:12px 15px 0 0;width:9px;}
+.boxcontenedor {background-color:#101921;display:none;height:auto;margin:0;overflow:hidden;position:absolute;z-index:999;}
+.boxcontenido {display:block;font-size:10px;font-family:Arial, Cerdana;height:auto;padding:0 5px;}
+/* Contraer/expandir elementos */
+.elementoVisible {display:block;}
+.elementoOculto {display:none;}
+.linkContraido,.linkExpandido {background:transparent url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat -70px -131px  !important;color:transparent;cursor:pointer;display:block;height:16px;padding:0 !important;width:114px !important;}
+.linkContraido img, .linkExpandido img {display:none;}
+/* TIPO ENTRADAS : Videos y Flash con tablas */
+.ventanaYTB {background-color:#000;border:1px solid #343F4A;height:395px;margin:0;padding:10px 0 0;text-align:center;z-index:1000;}
+.cerrarYTB {background-color:#101921;border:1px solid #343F4A;color:#F93;height:18px;margin:5px;padding:4px 4px 0 0;text-align:right;vertical-align:middle;}
+.cerrarYTB a {background-position:-254px 0;float:right;height:9px;margin:4px 5px 0 0;width:9px;}
+.ventanaSWF {height:100%;margin:0;padding:0;text-align:center;width:100%;z-index:1000;}
+.cerrarSWF {margin:0;padding:0;text-align:center;vertical-align:middle;}
+/* TIPO ENTRADAS : tabla galeria imagenes */
+table.tablaGALERIA {margin:0 auto;border:none;width:100%}
+table.tablaGALERIA td {border-radius:5px;box-shadow:0 0 50px #345 inset;padding:5px 5px 0;text-align:center;vertical-align:middle;}
+/* TIPO ENTRADAS : script miniaturas */
+.contenedorMiniaturas {background:#000 url() no-repeat 50% 50%;border:2px solid #555;display:none;height:0px;left:0px;position:absolute;top:0px;width:0px;z-index:1010;}
+.contenedorMiniaturas span {color:#F93;float:right;font-size:10px;font-family:Arial;margin:0 10px 0 0;}
+/* TIPO ENTRADAS : Wallpapers */
+table.WPcontent {border-radius:10px;background-color:#000;border:5px solid #345;color:#E0E0E0;font-size:12px;margin:10px auto;text-align:left;width:460px;}
+table.WPcontent td {text-align:center;vertical-align:middle;}
+table.WPcontent td.WPtitulo {border-radius:5px;background-color:#345;line-height:20px;}
+table.WPcontent td.miniWP a {display:block;height:150px;margin:0;padding:0;width:210px;}
+table.WPcontent td.miniWP img {height:150px;margin:0;padding:0;width:210px;}
+table.WPcontent td.WPzip {border-radius:5px;background-color: #345;line-height: 20px;text-align:left;}
+table.WPcontent td.WPzip a {background-position:-64px 0;float:left;height:16px;margin:2px 5px 0 60px;width:16px;}
+/* TIPO ENTRADAS : Iconos */
+table.packiconos {margin:0 auto;border:none;width:600px}
+table.packiconos td {text-align:center;vertical-align:middle;}
+table.packiconos td.isepara {height:20px}
+table.packiconos td.ititulo {letter-spacing:5px;border-bottom:1px dotted #FFF;padding:5px 10px;font-size:24px;font-weight:normal;color:#FFF;text-align:left;}
+table.packiconos a.idescarga {box-shadow:0 0 10px #ABC inset;background-color:#456;color:#DEF;display:block;font-family:Tahoma !important;font-size:17px !important;font-weight:normal;height:1.5em;line-height:1.4em;margin:10px 0 0;text-align:center;width:100px;border-radius:10px;}
+table.packiconos a.idescarga:hover {box-shadow:0 0 10px #DEF inset;color:#FFF;}
+/* TIPO ENTRADAS : Videos con LightWindow */
+.vagaVideo {border-radius:8px;background-color:#000;border:5px solid #234;height:252px;margin:20px auto 5px auto;padding:10px;text-align:center;width:330px;}
+.vagaVideoIMG {border-radius:4px;background:transparent url() no-repeat 50% 50%;border:3px solid #567;height:240px;width:324px;}
+.vagaVideoINFO {background-color:#234;color:#CDE;font-family:Century Gothic;font-size:13px;height:240px;overflow:hidden;padding:0 10px;width:304px;}
+.vvINFOtitulo {color:#84A0B7;font-family:Georgia;font-size:18px;height:35px;line-height:35px;width: 100%;}
+.vvINFOform {margin:10px auto;}
+.vvINFOform span {display:block;font-family:Verdana;font-size:11px;}
+.vvINFOtxt {border:none;background-color:#123;color:#BBB;font-size:11px;padding:5px;width:275px;}
+.vvINFOad {box-shadow:0 0 10px #000 inset,0 0 30px #000;background-position:-70px -190px;float:left;height:23px;margin:30px 0 0 30px;width:87px;}
+.vvINFOyt {background-position:-70px -147px;float:right;height:43px;margin:20px 30px 0 0;width:43px;}
+.vvINFOyt:hover {background-position:-113px -147px;}
+.vagaVideoVER {background-position:-111px -48px;float:left;height:16px;margin: 10px 0 0 10px;width:64px;}
+.vagavideoTOGGLE {background-position:-144px 0px;float:right;height:16px;margin-right:10px;width:55px;}
+/* TIPO ENTRADAS : Videos TwitVid */
+.TWvideo {background-color:#000;border-radius:10px;box-shadow:0 0 5px #666 inset;padding:10px;text-align:center;}
+.TWvideo a {color: #AAA !important;display:block;font-family:Verdana !important;letter-spacing:-1px;margin:10px 20px 0 0;text-align:right;}
+.TWvideo a img {padding-right:5px;vertical-align:bottom;}
+.TWvideo a img {margin-right: 5px;vertical-align:middle;box-shadow: 0 0 5px #000 inset;border-radius: 4px;padding: 2px 4px;background-color: #FFF;opacity: .5;}
+.TWvideo a:hover {color: #79CDF2 !important;}
+.TWvideo a:hover img {opacity: 1;}
+/* TIPO ENTRADAS : juegos */
+.VAJ {height: 147px;margin: 0 auto;overflow: hidden;position: relative;text-align: center;width: 309px;}
+.VAJ:before {content: "click para jugar";position: relative;top: 10px;right: -75px;color: #FFF;text-shadow: 1px 1px 1px #000;font-size: 20px;font-family: Verdana;letter-spacing: -1px;padding: 0 10px;}
+.VAJ:hover:before {color: #000;background-color: #ECECEC;border-radius: 4px 4px 0 0;text-shadow: 1px 1px 1px #FFF;}
+.VAJ:hover:after {background-color: #CDCDCD;border-radius: 0 0 4px 4px;color: #FFF;content: "yvamosajugar.blogspot.com";font-family: Helvetica;font-size: 22px;padding-bottom: 5px;width: 310px;text-align: center;display: block;margin-top: -4px;}
+/* TIPO ENTRADAS : galerias */
+#galeria {line-height: 0;margin: 0 auto;position: relative;text-align: center;width: 635px;}
+#galeria br {display: none;}
+#galeria img {cursor:pointer;filter:alpha(opacity=80);opacity: 0.8;outline:1px solid #101921;}
+#galimagen {background-color: #FFF;border: 1px solid #FFF;box-shadow: 0 0 3px #000 inset;cursor: pointer;padding: 15px;position: absolute;opacity:0;filter:alpha(opacity=0);-webkit-transition:opacity 1s;-o-transition:opacity 1s;-ms-transition:opacity 1s;z-index:-1;}
+#galimagen-inner {background: transparent url() no-repeat 50% 50%;height: 100%;width: 100%;}
+#galthumbs img:hover {opacity:1;filter:alpha(opacity=100);}
+#galthumbs:hover {}
+/* widget Administracion */
+#panelAdministracion {background-color:#000;border:1px solid #444;margin:1px 0;padding:0 10px;text-align:right;}
+#panelAdministracion a {color:#CCC;}
+#panelAdministracion a:hover {color:#FFF; font-weight: normal;}
+.quickedit  {display: none !important;}
+.quickeditSI  {display: block !important;}
+#FLOTANTE {display:none; bottom:150px; right:0px; position:fixed;}
+span.bulletER {background-position:-273px 0px;float:left;height:16px;margin-right:5px;width:16px;}
+span.bulletLK {background-position:-80px 0px;float:left;height:16px;margin-right:5px;width:16px;}
+a.bulletME {background-position:-16px 0px;height:16px;margin:0;padding:0;position: absolute;right: 20px;top: 3px;width: 16px;}
+a.comPopUp {background-position:-182px -16px;float:left;height:16px;width:91px;}
+a.enlacePost {background-position:-91px -16px;float:left;height:16px;width:91px;}
+a.irarriba {background-position:-51px -48px;float:right;height:16px;width:60px;}
+#VUM {left: 0;position: absolute;top: 0;visibility: hidden;z-index: 10000;}
+#VUM-inner {clear: both;position: relative;}
+#VUM-contenido {height: 100%;cursor:url(http://1.bp.blogspot.com/_hljKDuw-cxQ/TGcZLDHHSlI/AAAAAAAAQHQ/53IUYqm-KCE/s400/magminus.gif), pointer !important;}
+.toVUM img, img.toVUM {border:2px solid #678;cursor:url(http://3.bp.blogspot.com/_hljKDuw-cxQ/SRW_3-NMIiI/AAAAAAAAIhU/Prj4Nj-4tx8/s00/magplus.gif), pointer !important;}
+.toVUM img:hover, img.toVUM:hover {border:2px solid #DEF;}
+.paginacioncomentarios {text-align:center;}
+.paginacioncomentarios {font-family:Tahoma;font-size:12px;letter-spacing:3px;margin:0;}
+.paginacioncomentarios a {border-radius:4px;border:1px solid #303941;color:#AAA !important;margin:0;padding:3px 8px 4px;}
+.paginacioncomentarios a:hover {background-color:#303941;color:#FFF !important;}
+.paginacioncomentarios .pagcomL {margin: 0 10px;}
+.paginacioncomentarios .pagcomN {margin: 0 2px;}
+/* ocultar elemento de la sidebar */
+#HTML19 {display: none;}
+#PageList1 {display: none;}
+
+--></style>
+<!-- ESTILOS EXCLUSIVOS PARA LA PAGINA PRINCIPAL -->
+<!-- ESTILOS EXCLUSIVOS PARA LAS PAGINAS INDIVIDUALES -->
+<style type='text/css'>
+
+.post-footer-line-2 {padding:10px 5px 0;}
+
+a.sociales {float: right;height:24px;margin:0 2px;width:24px;}
+a.socTW {background-position:-94px -107px;}
+a.socFB {background-position:-70px -107px;}
+a.socBB {background-position:-156px -147px;}
+a.socSU {background-position:-118px -107px;}
+a.socOK {background-position:-142px -107px;}
+a.socFF {background-position:-166px -107px;}
+
+/* Post relacionados */
+.post-footer-line-4 {border-top:1px dotted #345;margin:45px 0 10px;padding-top:10px;}
+#postsrelacionados {}
+.relsposts {float:left;height:180px;margin:0 5px;overflow:hidden;padding:5px;text-align:center;width:130px;}
+.relsposts:hover {background-image:linear-gradient(#101921,#303941);
+    }
+.relsposts a {color:#EEE !important;display:inline;font-family:Helvetica;font-size:11px;line-height:1;}
+.relsposts img {border-radius:4px;box-shadow:0 0 20px #444 inset;display:inline-block;height:72px;padding:5px;width:72px;}
+.relsposts h6 {display:table-cell;height: 5em;margin:5px 0 0;overflow:hidden;padding-bottom:2px;vertical-align:middle;width:130px;}
+.relsposts p {border-bottom:1px dotted #555;border-top:1px dotted #555;color:#AAA;font-size:10px;height:4em;line-height:1;margin:5px 0 0;overflow:hidden;padding:5px 0;text-align:left;}
+
+/* navegacion etiquetas bajo entradas */
+#postsrelacionados {height:190px;overflow:hidden;-webkit-transition:all 1s;-o-transition:all 1s;transition:all 1s;}
+#PF5 {height:0px;margin-top:-10px;overflow:hidden;-webkit-transition:all 1s;-o-transition:all 1s;transition:all 1s;}
+#navetiquetas {height: 190px;width: 100%;}
+#navetiquetassel {background-color: #272E37;border-radius: 4px;font-family: Tahoma;font-size: 12px;height: 24px;line-height: 24px;margin: 20px auto 0;padding: 1px 10px;text-align: center;width: 500px;}
+#navetiquetassel .anterior {background: transparent url(http://3.bp.blogspot.com/-npmUXBjrAzA/Td84ncv8eII/AAAAAAAAR9s/Egims18dqLo/s00/barraL.gif) no-repeat right 50%;float: left;height: 24px;width: 17px;}
+#navetiquetassel .siguiente {background: transparent url(http://3.bp.blogspot.com/-NaZnK-b6oQs/Td84nvTvMcI/AAAAAAAAR90/qOWetDPRtiQ/s00/barraR.gif) no-repeat left 50%;float: right;height: 24px;width: 17px;}
+#navetiquetassel .close {background: transparent url(http://2.bp.blogspot.com/-533BJ-6b_X8/Td84nXmTb7I/AAAAAAAAR9k/mfYy-jx-paM/s00/barraC.gif) no-repeat left 4px;float: right;height: 24px;margin-left: 100px;width: 17px;}
+#navetiquetassel a {color: #A0A9B1;font-size: 15px;font-weight: normal;opacity: 0.8;filter:alpha(opacity=80);}
+#navetiquetassel a:hover {opacity:1;filter:alpha(opacity=100);}
+#navetiquetassel .deshabilitado {opacity:.3;filter:alpha(opacity=30);}
+#navetiquetasfooter {height: 36px;line-height: 36px;margin: 0 auto;width: 500px;}
+#navetiquetasfooter a {color: #AAA;font-family: Helvetica;font-size: 11px;font-weight: normal;}
+#navetiquetasfooter a:hover {color: #FFF;}
+#navetiquetasfooter a.enlacefeed {float: right;}
+#navetiquetasloading {background: transparent url(https://lh6.googleusercontent.com/-EkoE39lvC78/Td8tat7EROI/AAAAAAAAR9M/jHH0E-2Uezg/s000/barraload.gif) no-repeat 50% 50%;height: 190px;width: 100%;}
+
+/* Comentarios */
+#comments h4 {padding-left:20px;text-align:left;}
+#comments-block {clear:both;counter-reset: contadorcomentarios;margin:0;overflow:hidden;position:static;width:100%;}
+#comments-block.avatar-comment-indent {margin-left:0;}
+.comentariobloque {background-color:#1E252D;border-bottom:1px solid #2E353D;border-top:1px solid #2E353D;margin: 10px 0 30px;;padding:5px 20px 0;}
+.comentariobloque:nth-child(2n+1) {background-color:#2E353D;border-color:#3E454D;}
+#comments-block dt {position: relative;}
+#comments-block dt:before {color: #789;content: counter(contadorcomentarios, decimal);counter-increment: contadorcomentarios;font-family: Century Gothic;font-size: 36px;position: absolute;right: 0;top: 0;}
+#comments-block-backlinks dt:before {display: none;}
+#comments-block .comment-author {color:#9AB;font-family:Tahoma;font-size:17px;padding-top:10px;position:relative;}
+#comments-block a, #comments-block a:visited {color:#9AB;}
+#comments-block a:hover {color:#BCD;}
+#comments-block .avatar-image-container {background-color: #234;border: 2px solid #456;border-radius: 25px / 10px;height: 47px;padding: 1px;text-align: center;width: 47px;float:left; position:static; max-height:47px;}
+#comments-block .avatar-image-container img {background:#234 url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat -229px -157px;display:block;float:none;min-height:45px;min-width:45px;border-radius: 25px / 10px;border: 1px solid #000;}
+#comments-block .avatar-image-container.avatar-stock {background:#234 url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat -180px -157px;}
+#comments-block .avatar-image-container.avatar-stock img {display:none;}
+img.delayLoad {max-height:45px;min-height:45px;min-width:45px;max-width:45px;}
+span.autorcomentario {display: block;padding: 5px 0 0 65px;}
+span.autorcomentario a {font-family:Lucida Grande,Times New Roman;font-size:20px;}
+#comments-block span.comment-footer {display: block;font-size: 10px;padding: 5px 0 0 65px;}
+#comments-block .comment-body {clear:both;color:#CCC;margin-bottom:10px;overflow-x:hidden;text-align:left;word-wrap:break-word;}
+#comments-block .comment-body a, #comments-block .comment-body a:visited {color:#BCD;}
+#comments-block .comment-body a:hover {color:#DEF;}
+.comment-body p img {padding-right:.3em; vertical-align:top;}
+#comment-label {display:none;margin:50px 0 0;text-align:center;}
+.deleted-comment {color:gray;font-style:italic;}
+.respuestas-comentarios {background-color: rgba(0, 0, 0, 0.2);border-bottom: 1px solid rgba(68, 85, 102, 0.7);border-top: 1px solid rgba(68, 85, 102, 0.7);margin: 10px 0;padding: 10px;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);}
+.comment-author-thread {float:left;}
+#comments-block .respuestas-comentarios {position: relative;margin: 15px 0 0 25px;}
+#comments-block .respuestas-comentarios:before {color: #789;content: counter(contadorcomentarios, decimal);counter-increment: contadorcomentarios;font-family: Century Gothic;font-size: 24px;position: absolute;right: 10px;top: 10px;}
+.reply-action {background-color: #000;
+background-image: -webkit-linear-gradient(#000, #404951);background-image: -o-linear-gradient(#000, #404951);background-image:linear-gradient(#000, #404951);border-radius: 8px;bottom: -12px;box-shadow: 0 0 2px #DEF inset;color: #FFF !important;display: block;font-family: Tahoma;font-size: 11px;padding: 5px 10px;position: relative;text-align: center;text-shadow: 1px 1px 1px #000;text-transform: lowercase;width: 70px;}
+.reply-action:hover {background-image:linear-gradient(#000, #A0A9B1);}
+#replypost {background-color: #000;background-image: -webkit-linear-gradient(#000, #404951);background-image: -o-linear-gradient(#000, #404951);background-image:linear-gradient(#000, #404951);border-radius: 8px;bottom: -15px;box-shadow: 0 0 2px #DEF inset;color: #FFF !important;display: block;font-family: Tahoma;font-size: 18px;margin: 0 auto;padding: 5px 0;position: relative;text-align: center;text-shadow: 1px 1px 1px #000;text-transform: lowercase;width: 300px;}
+#replypost:hover {background-image:linear-gradient(#000, #A0A9B1);}
+.contenedorreply { position: relative;top: 30px;}
+
+/* Formulario de comentarios incrustado */
+#comment-form-thread {background-color: #1E252D;border-bottom: 1px solid #456;border-top: 1px solid #456;clear: both;margin: 0 auto;max-width: 100%;padding: 0 20px;width: auto;}
+#comment-form-thread h3 {color: #9AB;font-family: Lucida Grande,Times New Roman;font-size: 20px;height: 27px;line-height: 27px;}
+#comment-form-thread h3 span {background-position:-196px -130px;float:left;height:27px;margin-right:5px;width:29px;}
+#comment-form-thread p {color: #CCC;font-family: Arial;font-size: 12px;padding: 10px;text-align: justify;}
+#comment-editor {height:255px;margin:0;overflow:hidden;padding:0;width:615px;}
+a.comPopUp {margin:5px 5px 0 0;}
+a#comForm {background-position:-225px -72px;float:left;height:48px;margin:6px 5px 0 0;width:48px;}
+
+/* Entradas relacionadas en la sidebar */
+span.imgFeedER {background-position:-48px 0px;float:right;height:16px;margin:10px 5px 0 0;width:16px;}
+a.imgFeedER {color:#9AB;float:right;font-family:Tahoma;font-size:11px;font-weight:normal;line-height:16px;height: 20px;margin-top:10px;}
+a.imgFeedER:hover {color:#BCD;}
+#ers {margin: 0 auto;width: 245px;}
+.erspaginaetiquetas {background-color: #202931;border: 2px solid #101921;height: 90px;margin: 5px 0;outline: 1px solid #404951;padding: 0;position: relative;width: 241px;}
+.erspaginaetiquetas:hover {box-shadow: 0px 0px 60px #505961 inset;}
+.erspaginaetiquetas img {height: 55px;left: 5px;position: absolute;top: 30px;width: 55px;}
+.erspaginaetiquetas h6 {background-color: #404951;height: 20px;left: 5px;margin: 0;position: absolute;text-align: center;top: 6px;width: 230px;overflow: hidden;word-wrap: break-word;}
+.erspaginaetiquetas h6 a {color: #CDE;font-family: Tahoma;font-size: 11px !important;font-weight: normal !important;line-height: 20px;}
+.erspaginaetiquetas p {font-size: 11px;height: 48px;left: 70px;line-height: 1.1;margin: 0;overflow: hidden;position: absolute;top: 35px;width: 160px;}
+#ersnavegadionetiquetas {background-color: #202931;border: 1px solid #404951;color: #BBB;font-family: Tahoma;font-size: 18px;margin: 0 auto;text-align: center;width: 243px;}
+#ersnavegadionetiquetas a {color: #BBB !important;font-family: Tahoma !important;font-size: 18px !important;font-weight: normal !important;padding: 5px 10px;display:block;}
+#ersnavegadionetiquetas a:hover {color: #FFF !important;}
+#ersnavegadionetiquetas span {padding: 5px 10px;}
+#ersnavegadionetiquetas span.deshabilitado {color: #666 !important;}
+#ersnavegadionetiquetas .siguiente {float:right;}
+#ersnavegadionetiquetas .anterior {float:left;}
+#ersnavegadionetiquetas .inicio {text-align:center;}
+#ersloadingscript {color:#888;font-family:Century Gothic;font-size:100px;letter-spacing:-10px;text-align:center;text-shadow:-5px 0 1px #444; background: #202931 url(http://lh4.ggpht.com/_hljKDuw-cxQ/TMCSkoGBUTI/AAAAAAAAQkw/b05xzg2KkDk/loading.gif) no-repeat 50% 50%; height:526px; width:245px; border: 1px solid #404951;border-bottom:none;}
+
+/* ultimas entradas */
+#HTML1 {display:none;}
+#Feed1{display:none;}
+#Feed1_feedItemListDisplay li {background-image:url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png);height:16px;margin:2px 0;overflow-x:hidden;padding-left:20px;}
+#Feed1_feedItemListDisplay li {background-position:-273px -16px;}
+
+</style>
+<script src='../../../www.google.com/jsapibb12?key=ABQIAAAAmAsy8hZYvEkOTVQGAKoTOxQdHqP2RNjGZDPiTctYOgOFZObcuRTp_E_qoOvOa_omQI2vxrkeUTxU_A' type='text/javascript'></script>
+<!--[if lt IE 9]> <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'/> <![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+<script src='../../../ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js' type='text/javascript'></script>
+<!--<![endif]-->
+<!--<script src='http://code.jquery.com/jquery-migrate-1.0.0.js'/>-->
+<script type='text/javascript'>
+//<![CDATA[
+
+// FAVORITOS : agregar a favoritos
+function agregarFavoritos() {
+  if (window.sidebar&&window.sidebar.addPanel)
+    window.sidebar.addPanel("Vagabundia en Blogger","../../index.html","");
+ else
+   window.external.AddFavorite("../../index.html","Vagabundia en Blogger")
+}
+
+// crear enlace abrir comentarios popup
+function comPopUp(cual) {
+  var wW = (screen.width-480)/2;
+  var wH = (screen.height-550)/2;
+  var enlacePopup = "<a class='simgvaga001 comPopUp' ";
+  enlacePopup += "onclick='javascript:window.open(this.href, \"bloggerPopup\", \"toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=480,height=550,left=" + wW + ",top=" + wH + " \"); return false;'";
+  enlacePopup += "href='https://www.blogger.com/comment.g?blogID=33571139&amp;postID=" + cual + "&amp;isPopup=true'></a>";
+  document.write(enlacePopup);
+}
+
+// VER Y OCULTAR BLOQUES ADYACENTES
+function verocultar(href) {
+   var c = href.nextSibling;
+   if(c.style.display == 'none') {
+      c.style.display = 'block';
+   } else {
+      c.style.display = 'none';
+   }
+   return false;
+}
+
+// funcion generica : EXPANDIR / CONTRAER
+function desplegarContraer(cual,desde) { SINO(cual); } // para preservar compatibilidad
+function SINO(cual) {
+   var elElemento=document.getElementById(cual);
+   if(elElemento.style.display == 'block') {
+      elElemento.style.display = 'none';
+   } else {
+      elElemento.style.display = 'block';
+   }
+}
+
+// MINIATURAS EXPANDIBLES
+var miniaturaX;
+var miniaturaY;
+function decreaseSizeImage(contenedor) {
+  dondeVA = document.getElementById(contenedor);
+  dondeVA .style.display = 'none';
+}
+function expandirMiniatura(contenedor,cual,ancho,alto) {
+  urlIMAGEN = document.getElementById(cual).src;
+  dondeVA = document.getElementById(contenedor);
+  dondeVA.style.backgroundImage = 'url(' + urlIMAGEN + ')';
+  posPantallaX = (580 - ancho + 30) / 2;
+  posPantallaY = -(alto-miniaturaY  + 30) / 2;
+  dondeVA.style.left = posPantallaX + 'px';
+  dondeVA.style.top = posPantallaY + 'px';
+  dondeVA.style.width = ancho + 30 + 'px';
+  dondeVA.style.height = alto  + 30 + 'px';
+  dondeVA.style.display = 'block';
+}
+
+// LAS FECHAS DE LOS POSTS
+var mes=new Array();
+mes[1]="ene"; mes[2]="feb"; mes[3]="mar"; mes[4]="abr"; mes[5]="may"; mes[6]="jun";
+mes[7]="jul"; mes[8]="ago"; mes[9]="sep"; mes[10]="oct"; mes[11]="nov"; mes[12]="dic";
+function calendario(cual) {
+  var verCero;
+  var lafecha = cual.split('../../index.html');
+  verCero=lafecha[1].substr(0,1); if (verCero == "0") { lafecha[1]=lafecha[1].substr(1) }
+  fday = "<span class='lafechaDia'>"+lafecha[1]+"</span>";
+  fmonth = "<span class='lafechaMes'>"+mes[lafecha[0]]+"</span>";
+  fyear = "<div class='lafechaAnio'>"+lafecha[2]+"</div>";
+  document.write(fday+fmonth+fyear);
+}
+
+// INSERTAR VENTANAS INTERNAS PARA FLASH
+var objetoTabla=""; // flag en caso de haber una tabla
+function crearYouTube(cual) {
+  objetoTabla="";
+  expandirVentanaT(cual);
+  var objetoT = document.getElementById(cual);
+  if (objetoT) {
+    objetoT.innerHTML = "<div class='ventanaYTB'><object style='width:425px;height:350px' id='movie' type='application/x-shockwave-flash' data='http://www.youtube.com/v/" + cual + "&amp;theme=dark&amp;version=3&amp;autoplay=1' /><param name='movie' value='http://www.youtube.com/v/" + cual + "&amp;theme=dark&amp;version=3&amp;autoplay=1' /><param name='wmode' value='transparent' /></object><div class='cerrarYTB'><a rel='nofollow' class='simgvaga001' href='javascript:eliminarObjetoT(\"" + cual + "\")'></a></div></div>";
+  }
+}
+function crearTablaYouTube(laTabla,cual) {
+  objetoTabla = laTabla; // preservar el ID de la tabla
+  expandirVentanaT(cual);
+  var objetoT = document.getElementById(cual);
+  if (objetoT) {
+    objetoT.innerHTML = "<div class='ventanaYTB'><object style='width:425px;height:350px' id='movie' type='application/x-shockwave-flash' data='http://www.youtube.com/v/" + cual + "&amp;theme=dark&amp;version=3&amp;autoplay=1' /><param name='movie' value='http://www.youtube.com/v/" + cual + "&amp;theme=dark&amp;version=3&amp;autoplay=1' /><param name='wmode' value='transparent' /></object><div class='cerrarYTB'><a rel='nofollow' class='simgvaga001' href='javascript:eliminarObjetoT(\"" + cual + "\")'></a></div></div>";
+ }
+}
+function crearSWF(cual,url,ancho,alto,bgfondo) {
+  objetoTabla="";
+  expandirVentanaT(cual);
+  var objetoF = document.getElementById(cual);
+  if (bgfondo=="transparent") {
+    elFondo="<param name='wmode' value='transparent' />"
+  } else {
+    elFondo="<param name='bgcolor' value='#" + bgfondo + "' />"
+  }
+  if (objetoF) {
+    objetoF.innerHTML = "<div class='ventanaSWF'><object style='width:" + ancho + "px;height:" + alto + "px' id='movie' type='application/x-shockwave-flash' data='" + url + "'><param name='movie' value='" + url + "' />" + elFondo + "</object><div class='cerrarSWF'><a rel='nofollow' href='javascript:eliminarObjetoT(\"" + cual + "\")'>CERRAR</a></div></div>";
+  }
+}
+function eliminarObjetoT(cual) {
+  var objetoT = document.getElementById(cual);
+  if (objetoT) { objetoT.innerHTML = "&nbsp;"; }
+  contraerVentanaT(cual); // ocultar ventana tooltip
+}
+function expandirVentanaT(cual) {
+  mostrarVentanaT(cual); // mostrar tootlip con el archivo
+  ocultarVentanaT("v-" + cual); // ocultar el enlace original
+  if (objetoTabla != "") { // si es una tabla, ocultarla
+    var laTabla = document.getElementById(objetoTabla);
+    laTabla.style.display = "none";
+  }
+}
+function contraerVentanaT(cual) {
+  mostrarVentanaT("v-" + cual); // restarurar el enlace original
+  ocultarVentanaT(cual); // ocultar tootlip con el archivo
+  if (objetoTabla != "") { // si es una tabla, mostrarla
+    var laTabla = document.getElementById(objetoTabla);
+    laTabla.style.display = "block";
+  }
+}
+function mostrarVentanaT(name) {
+  var objetoT = document.getElementById(name);
+  if (objetoT) { objetoT.style.display = "block"; }
+}
+function ocultarVentanaT(name) {
+  var objetoT = document.getElementById(name);
+  if (objetoT) { objetoT.style.display = "none"; }
+}
+
+// CREAR WALLPAPERS
+function crearPostWallpapers(arrayAux,zipAUX) {
+  salidaWP="<table class='WPcontent' cellpadding='5' cellspacing='10'><tbody>";
+  salidaWP+="<tr><td class='WPtitulo' colspan='2'>Click en la imagen para previsualizar un modelo reducido.</td></tr>";
+  for (var i=0; i<arrayAux.length; ++i){
+    if (i % 2 == 0) {salidaWP+="<tr>";}
+    var im512 = arrayAux[i].replace('s000','s640');
+    var im200 = arrayAux[i].replace('s000','s200');
+    salidaWP+="<td class='miniWP'>";
+    salidaWP+="<a href='" + im512 + "' class='lightwindow'  w='640' h='510'>";
+    salidaWP+="<img alt='' class='nores' src='" + im200 + "' /></a></td>";
+    if (i % 2 != 0) {salidaWP+="</tr>";}
+  }
+  salidaWP+="<tr><td class='WPzip' colspan='2'>Descargar el archivo ZIP que contiene las imágenes ";
+  salidaWP+="<a rel='nofollow' class='simgvaga001' href='" + zipAUX + "'></a></td></tr>";
+  salidaWP+="</tbody></table>";
+  document.write(salidaWP)
+}
+
+// CREAR VIDEOS YOUTUBE
+function escribir_YTvideo(IDYTvideo,tituloYTvideo,resumenYTvideo) {
+  var output = "<div class='vagaVideo'>";
+  output += "<div class='vagaVideoIMG' style='background-image: url(http://img.youtube.com/vi/" + IDYTvideo + "/0.jpg);'>";
+  output += "<div id='vv-" + IDYTvideo + "' class='vagaVideoINFO' style='overflow: hidden; display: none;'>";
+  output += "<div class='vvINFOtitulo'>" + tituloYTvideo + "</div><div>" + resumenYTvideo + "</div>";
+  output += "<form class='vvINFOform' action=''>";
+  output += "<textarea class='vvINFOtxt'><object width='425' height='350' id='movie' type='application/x-shockwave-flash' data='http://www.youtube.com/v/" + IDYTvideo + "'><param name='movie' value='http://www.youtube.com/v/" + IDYTvideo + "' /><param name='wmode' value='transparent' /><param name='allowfullscreen' value='true'/></object></textarea>";
+  output += "<span>Copiar el código para insertar el video</span></form>";
+  output += "<a class='simgvaga001 vvINFOad' href='http://acedownloader.com/watch?v=" + IDYTvideo + "' title='Descargar desde acedownloader.com' target='_blank'></a>";
+  output += "<a class='simgvaga001 vvINFOyt' href='http://es.youtube.com/user/JMiur' title='Canal YouTube' target='_blank'></a>";
+  output += "</div>";
+  output += "<a class='simgvaga001 vagavideoTOGGLE' href='#' rel='" + IDYTvideo + "'></a>";
+  output += "</div>";
+  output += "<a class='lightwindow simgvaga001 vagaVideoVER' href='http://www.youtube.com/v/" + IDYTvideo + "?version=3&hl=es&fs=1&rel=0&autoplay=0&ap=%2526fmt%3D18&showsearch=0&showinfo=0' w='640' h='385'></a>";
+  output += "</div>";
+  output += "<div style='clear:both;'></div>";
+  document.write (output);
+}
+
+// CREAR VIDEOS TWITVID
+function cargar_TWvideo(id) {
+  var salida = "<div class='TWvideo' id='" + id +"'>";
+  salida += "<iframe title='Twitvid video player' class='twitvid-player' type='text/html' width='576' height='432' src='http://www.twitvid.com/embed.php?guid=" + id + "&autoplay=0' frameborder='0'></iframe>";
+  salida += "<a href='http://www.twitvid.com/"+ id +"' target=_blank'><img src='http://4.bp.blogspot.com/-CBvqNrI7wCI/TiZfZ5coJqI/AAAAAAAASZg/Pa9V5Oq69bE/s00/twitvid.png'>Vagabundia en twitvid</a>";
+  salida += "</div>";
+  document.write (salida);
+}
+
+// CREAR MP3 con DEWPLAYER
+function escribir_MP3(archivo) {
+  var output = "<object type='application/x-shockwave-flash' data='http://img156.imageshack.us/img156/7519/dewplayermulti.swf?mp3=" + archivo + "' height='20' width='240'>";
+  output += "<param name='movie' value='http://img156.imageshack.us/img156/7519/dewplayermulti.swf?mp3=" + archivo + "'></object>";
+  document.write (output);
+}
+
+// GALERIAS
+var IEelem={};
+function IEaddIDgal(fn,uniqueID) {
+  return function(event) {return fn.call(IEelem[uniqueID],event);}
+}
+function addgaleria() {
+  var g = document.getElementById("galthumbs");
+  var el = g.getElementsByTagName("a");
+  for (var i=0; i<el.length; i++) {
+    if (el[i].addEventListener) {
+      el[i].addEventListener("click", galtosee, false);
+    } else if (el[i].attachEvent) {
+        var uniqueID = el[i].uniqueID;IEelem[uniqueID] = el[i];
+        el[i].attachEvent("onclick",IEaddIDgal(galtosee,uniqueID));
+    }
+  }
+  var gi= document.getElementById("galimagen");
+  if (gi.addEventListener) {
+    gi.addEventListener("click", galtohide, false);
+  } else if (gi.attachEvent) {
+    gi.attachEvent("onclick", galtohide);
+  }
+}
+function galrun(galimgW,galimgH) {
+  addgaleria();
+  var galdivW = 635;
+  var galdivH = document.getElementById("galeria").clientHeight;
+  g = document.getElementById("galimagen");
+  g.style.width = galimgW + "px";
+  g.style.height = galimgH + "px";
+  g.style.left = (galdivW - galimgW -33) / 2 + "px";
+  g.style.top = (galdivH - galimgH -33) / 2 + "px";
+}
+function galtosee() {
+  g = document.getElementById("galimagen");
+  gt = document.getElementById("galthumbs");
+  gi = document.getElementById("galimagen-inner");
+  this.href="javascript:void(0);"
+  var aux = this.firstChild;
+  gi.style.backgroundImage = "url(" + aux.src + ")";
+  g.style.zIndex = 1;
+  g.style.opacity = 1;
+  gt.style.opacity = ".4";
+  g.style.filter = "alpha(opacity=100)";
+  gt.style.filter = "alpha(opacity=40)";
+}
+function galtohide() {
+  g = document.getElementById("galimagen");
+  gt = document.getElementById("galthumbs");
+  gi = document.getElementById("galimagen-inner");
+  g.style.opacity = 0;
+  g.style.filter = "alpha(opacity=0)";
+  g.style.zIndex = -1;
+  gt.style.opacity = 1;
+  gt.style.filter = "alpha(opacity=100)";
+  gi.style.backgroundImage = "url()";
+}
+
+function redirALL(idPOST) {
+  var divVerificar = "post-" + idPOST;
+  var contenido = document.getElementById(divVerificar);
+  if(contenido!=null) {
+    var listaEnlaces = contenido.getElementsByTagName("a");
+    if(listaEnlaces.length>0){
+      for(var i=0; i<listaEnlaces.length; ++i) {
+        enlace = listaEnlaces[i].href;
+        if(enlace.substring(0,46)=="../../../www.fileden.com/files/2006/9/14/217659/index.html"){
+          enlace = "http://www.fileden.com/files/2007/12/6/1629655/" + enlace.substring(46);
+          listaEnlaces[i].href = enlace;
+        }
+      }
+    }
+    var listaImagenes = contenido.getElementsByTagName("img");
+    if(listaImagenes.length>0){
+      for(var i=0; i<listaImagenes.length; ++i) {
+        fuentesrc = listaImagenes[i].src;
+        if(fuentesrc.substring(0,45)=="../../../i140.photobucket.com/albums/r25/JMiur/index.html"){
+          fuentesrc = "http://dl.dropbox.com/u/21163834/PBDEFAULT/" + fuentesrc.substring(45);
+          listaImagenes[i].src = fuentesrc;
+        }
+      }
+    }
+  }
+}
+
+function manageBanners(cual) {
+  lista = document.getElementById("listaBanners" + cual);
+  codigo = document.getElementById("codigoBanner" + cual);
+  ejemplo = document.getElementById("ejemploBanner" + cual);
+  if(cual=="1") {
+    url = "../../index.html";
+  } else {
+    url = "../../../vagabundia.bolsanegra.net/tutorialhtml/index.html";
+  }
+  var graphicFileName = lista.options[lista.selectedIndex].getAttribute("rel");
+  var newCode = "<a rel='nofollow' href='" + url + "'><img src='" + graphicFileName + "' title='Agregar banner' alt='Agregar banner' /></a>";
+  codigo.value = newCode;
+  ejemplo.innerHTML = newCode;
+}
+
+// VUM window
+function abrirVUM(tag) {
+  var VUM,VUMcontenido,ancho,alto,X,Y;
+  var screenWidth,screenHeight,pagePosition;
+  VUM = document.getElementById("VUM");
+  VUMcontenido = document.getElementById("VUM-contenido");
+  if(VUM.style.visibility=="visible") { return }
+  screenWidth = window.innerWidth || (document.documentElement && document.documentElement.clientWidth) || document.body.clientWidth;
+  screenHeight = document.documentElement.clientHeight;
+  if(typeof(window.pageYOffset) == 'number') {
+    pagePosition = window.pageYOffset;
+  } else if(document.body && (document.body.scrollLeft || document.body.scrollTop)) {
+    pagePosition = document.body.scrollTop;
+  } else if(document.documentElement) {
+  pagePosition = document.documentElement.scrollTop;
+  }
+  VUMcontenido.innerHTML = "<img alt=''  src='" + tag.src + "' />";
+  ancho = VUMcontenido.clientWidth; alto = VUMcontenido.clientHeight;
+  X = (screenWidth - ancho) / 2; Y = pagePosition + (screenHeight - alto) / 2;
+  VUM.style.left = X + "px"; VUM.style.top = Y + "px";
+  VUM.style.visibility = "visible";
+}
+function hideVUM() { document.getElementById("VUM").style.visibility = "hidden"; }
+
+// FUNCIONES GENERICAS PARA JSON
+// devuelve el titulo de la entrada
+function getJSONtitle(entry,res) {
+  var t = entry.title.$t;
+  if(res) {
+    t = t.substring(0,res);
+  }
+  return t;
+}
+// devuelve la url de la entrada
+function getJSONurl(entry) {
+  var url;
+  for (var k = 0; k < entry.link.length; k++) {
+    if (entry.link[k].rel == 'alternate') {
+      url = entry.link[k].href;
+      break;
+    }
+  }
+  return url;
+}
+// devuelve el contenido de la entrada
+function getJSONcontent(entry,res) {
+  var c = "";
+  if ("content" in entry) {
+    c = entry.content.$t;
+  } else if ("summary" in entry) {
+    c = entry.summary.$t;
+  }
+  if(res) {
+    c = eliminartags(c,res);
+  }
+  return c;
+}
+// devuelve la imagen de la entrada
+function getJSONthumbnail(entry) {
+  var t = "";
+  if ("media$thumbnail" in entry) {
+    t = entry.media$thumbnail.url;
+  } else {
+    var s, a, b, c, d;
+    s = entry.content.$t;
+    a = s.indexOf("<img");b = s.indexOf("src=\"",a);c = s.indexOf("\"",b+5);d = s.substr(b+5,c-b-5);
+    if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")) {
+      t = d;
+    } else {
+      var cat = entry.category[0].term;
+      t = getimagen(cat);
+    }
+  }
+  return t;
+}
+// devuelve el contenido resumido y sin etiquetas
+function eliminartags(cual,longitud){
+  var r = cual.split("<");
+  for(var i=0;i<r.length;i++){
+    if(r[i].indexOf(">")!=-1){
+      r[i] = r[i].substring(r[i].indexOf(">")+1,r[i].length);
+    }
+  }
+  r = r.join("");
+  var sss = "", p;
+  var r2 = r.split(" ");
+  for(var i=0;i<r2.length;i++){
+    p = sss + r2[i] + " "
+    if(p.length>=longitud) {break;}
+    sss = p;
+  }
+   sss += "&hellip;"
+  return sss
+}
+// devuelve al autor de la entrada
+function getJSONautor(entry) {
+  return entry.author[0].name.$t
+}
+// GENERICA ESTABLECER IMAGEN DE JSON
+function getimagen(cat) {
+        laimg = "../../../3.bp.blogspot.com/_hljKDuw-cxQ/SsmfbhHhGrI/AAAAAAAAOU0/vCmT5Y4wzEo/s00/vagaPlantilla_resumenpostsnoimage.png";
+        if(cat=="Blogger"){laimg = "http://1.bp.blogspot.com/_hljKDuw-cxQ/TP7_PPp5WtI/AAAAAAAARSM/WLGHzKEoMTo/s00/rels_blogger.jpg"}
+        if(cat=="CSS"){laimg = "http://4.bp.blogspot.com/_hljKDuw-cxQ/TP8A7OuHC8I/AAAAAAAARSU/lB88vqmLsGs/s00/rels_css.jpg"}
+        if(cat=="Facebook"){laimg = "http://4.bp.blogspot.com/_hljKDuw-cxQ/TQBM6PRgqAI/AAAAAAAARSg/riZXsPNTncM/s00/rels_facebook.jpg"}
+        if(cat=="HTML"){laimg = "http://4.bp.blogspot.com/_hljKDuw-cxQ/TQBKrvnVpHI/AAAAAAAARSY/ykioGlqkHb0/s00/rels_html.jpg"}
+        if(cat=="JavaScript"){laimg = "http://3.bp.blogspot.com/_hljKDuw-cxQ/TQBKsB8M95I/AAAAAAAARSc/E4BH7kpYvU0/s00/rels_javascript.jpg"}
+        if(cat=="JQuery"){laimg = "http://4.bp.blogspot.com/_hljKDuw-cxQ/TP78zfaOmUI/AAAAAAAARSI/hbG82lpDCRk/s00/rels_jquery.jpg"}
+        if(cat=="Twitter"){laimg = "http://3.bp.blogspot.com/_hljKDuw-cxQ/TP8A62ApydI/AAAAAAAARSQ/XqKmkMB31QE/s00/rels_twitter.jpg"}
+  return laimg;
+}
+
+// ULTIMOS COMENTARIOS
+function showrecentcomments(json) {
+  var entry, posturl, postcontent, salida;
+  salida = "";
+  for (var i=0;i<10;i++) {
+    entry = json.feed.entry[i];
+    if (i==json.feed.entry.length) {break;}
+    posturl = getJSONurl(entry);
+    //posturl = posturl.replace("#","#comment-");
+    postcontent = getJSONcontent(entry,60);
+    salida += "<li>";
+    salida +=  "<span class='simgvaga001'></span><b>" + entry.author[0].name.$t + "</b>";
+    salida +=  "<a target='_blank' rel='nofollow' href='" + posturl + "'>" + postcontent +"</a>";
+    salida +=  "</li>";
+    if(i==5) {
+      salida +=  "<li style='border:none'>";
+      salida +=  "<ul id='mascoms' style='display:none;'>";
+    }
+  }
+  salida +=  "</li>";
+  salida +=  "</ul>";
+  salida +=  "<a href='javascript:void(0);' onclick='SINO(&quot;mascoms&quot;);' style='color:#ABC;text-align:center;'>[+/-] comentarios</a>";
+  document.write(salida );
+}
+
+//]]>
+</script>
+<!-- FUNCIONES EXCLUSIVAS PARA LA PAGINA PRINCIPAL -->
+<!-- FUNCIONES EXCLUSIVAS PARA LAS PAGINAS INDIVIDUALES -->
+<script type='text/javascript'>
+//<![CDATA[
+
+// POST RELACIONADOS
+var reltitulos = new Array();
+var relurls = new Array();
+var relresumen = new Array();
+var relimagen = new Array();
+var reltituloscantidad = 0;
+var relmaxamostrar = 4;
+function leerpostetiquetas(json) {
+  for (var i = 0; i < json.feed.entry.length; i++) {
+    var entry = json.feed.entry[i];
+    reltitulos[reltituloscantidad] = entry.title.$t;
+    reltitulos[reltituloscantidad] = getJSONtitle(entry);
+    if(entry.category[0] .term == "wallpapers" | entry.category[0] .term == "animacion" ) {
+      relresumen[reltituloscantidad] = "<span style='display:block;text-align:center;'>click para ver la entrada en una nueva pestaña</span>";
+    } else {
+      relresumen[reltituloscantidad] = getJSONcontent(entry,70);
+    }
+    relimagen[reltituloscantidad] = getJSONthumbnail(entry);
+    relurls[reltituloscantidad] = getJSONurl(entry);
+    reltituloscantidad++;
+  }
+}
+function mostrarrelacionados() {
+   var tmp = new Array(0);
+   var tmp2 = new Array(0);
+   var tmp3 = new Array(0);
+   var tmp4 = new Array(0);
+   for(var i = 0; i < relurls.length; i++) {
+      if(!contains(tmp, relurls[i])) {
+         tmp.length += 1; tmp[tmp.length - 1] = relurls[i];
+         tmp2.length += 1; tmp2[tmp2.length - 1] = reltitulos[i];
+         tmp3.length += 1; tmp3[tmp3.length - 1] = relresumen[i];
+         tmp4.length += 1; tmp4[tmp4.length - 1] = relimagen[i];
+      }
+   }
+   reltitulos = tmp2; relurls = tmp; relresumen = tmp3; relimagen = tmp4;
+   for(var i = 0; i < reltitulos.length; i++){
+     var indice = Math.floor((reltitulos.length - 1) * Math.random());
+     var tempTitle = reltitulos[i]; var tempUrls = relurls[i];
+     var tempResumen = relresumen[i]; var tempImagen = relimagen[i];
+     reltitulos[i] = reltitulos[indice]; relurls[i] = relurls[indice];
+     relresumen[i] = relresumen[indice]; relimagen[i] = relimagen[indice];
+     reltitulos[indice] = tempTitle; relurls[indice] = tempUrls;
+     relresumen[indice] = tempResumen; relimagen[indice] = tempImagen;
+   }
+   var cuantosPosts = 0;
+   var r = Math.floor((reltitulos.length - 1) * Math.random());
+   var rini = r;
+   var salida;
+   var dirURL = document.URL;
+   while (cuantosPosts < relmaxamostrar) {
+      if (relurls[r] != dirURL) {
+         salida = "<div class='relsposts'>";
+         salida += "<a href='" + relurls[r] + "' rel='nofollow'  target='_blank' title='" + reltitulos[r] + "'><img alt='' src='" + relimagen[r] + "' /></a>";
+         salida += "<h6><a href='" + relurls[r] + "' target='_blank'>" + reltitulos[r] + "</a></h6>";
+         salida += "<p>" + relresumen[r] + "</p>";
+         salida += "</div>";
+         document.write(salida);
+         cuantosPosts++;
+         if (cuantosPosts == relmaxamostrar) { break; }
+      }
+      if (r < reltitulos.length - 1) {
+         r++;
+      } else {
+         r = 0;
+      }
+      if(r==rini) { break; }
+   }
+}
+function contains(a, e) {
+  for(var j = 0; j < a.length; j++) if (a[j]==e) return true;
+  return false;
+}
+
+// NAVEGACION ETIQUETAS BAJO ENTRADAS
+var laetiqueta;
+var navetiquetasflagfirst = 0;
+var labelsporpagina = 4;
+var labelanterior, labelsiguiente;
+function setnavetiquetas(cual) {
+  navetiquetasflagfirst = 0;
+  laetiqueta = cual;
+  navetiquetas(0);
+  return false;
+}
+function navetiquetas(direccion){
+  var p, parametros;
+  if(direccion==-1) {
+    p = labelanterior.indexOf("?");
+    parametros = labelanterior.substring(p);
+  } else if (direccion==1) {
+    p = labelsiguiente.indexOf("?");
+    parametros = labelsiguiente.substring(p);
+  } else {
+    document.getElementById("postsrelacionados").style.height = "0px";
+    document.getElementById("PF5").style.height = "270px";
+    parametros = "?start-index=1&max-results=" + labelsporpagina + "&orderby=published&alt=json-in-script"
+  }
+  parametros += "&callback=shownavetiquetas";
+  incluirscriptlabels(parametros);
+}
+function incluirscriptlabels(parametros) {
+  if(navetiquetasflagfirst==1) {removerscriptlabels();}
+  document.getElementById("navetiquetas").innerHTML = "<div id='navetiquetasloading'></div>";
+  document.getElementById("navetiquetassel").innerHTML = "";
+  var archivofeeds = "/feeds/posts/default/-/" + laetiqueta + parametros;
+  var nuevo = document.createElement('script');
+  nuevo.setAttribute('type', 'text/javascript');
+  nuevo.setAttribute('src', archivofeeds);
+  nuevo.setAttribute('id', 'NAVLABELTEMPORAL');
+  document.getElementsByTagName('head')[0].appendChild(nuevo);
+  navetiquetasflagfirst = 1;
+}
+function removerscriptlabels() {
+  var el = document.getElementById("NAVLABELTEMPORAL");
+  var padre = el.parentNode;
+  padre.removeChild(el);
+}
+function cerrarnavetiquetas() {
+    document.getElementById("PF5").style.height = "0px";
+    document.getElementById("postsrelacionados").style.height = "190px";
+}
+function shownavetiquetas(json) {
+  var entry, posttitle, posturl, postimg, postcontent;
+  var salida = "";
+  labelanterior = "";
+  labelsiguiente = "";
+  for (var k = 0; k < json.feed.link.length; k++) {
+    if (json.feed.link[k].rel == 'previous') {
+      labelanterior = json.feed.link[k].href;
+    }
+    if (json.feed.link[k].rel == 'next') {
+      labelsiguiente = json.feed.link[k].href;
+    }
+  }
+  for (var i = 0; i < labelsporpagina; i++) {
+    if (i == json.feed.entry.length) { break; }
+    entry = json.feed.entry[i];
+    posttitle = getJSONtitle(entry);
+    posturl = getJSONurl(entry);
+
+    if(entry.category[0] .term == "wallpapers" | entry.category[0] .term == "animacion" ) {
+      postcontent = "<span style='display:block;text-align:center;'>click para ver la entrada en una nueva pestaña</span>";
+    } else {
+      postcontent = getJSONcontent(entry,70);
+    }
+
+
+    postimg = getJSONthumbnail(entry);
+    salida += "<div class='relsposts'>";
+    salida += "<a href='" + posturl + "' target='_blank'><img alt='' src='" + postimg + "' /></a>";
+    salida += "<h6><a href='" + posturl + "' target='_blank'>" + posttitle + "</a></h6>";
+    salida += "<p>" + postcontent + "</p>";
+    salida += "</div>";
+  }
+  document.getElementById("navetiquetas").innerHTML = salida;
+  salida = "<a href='javascript:cerrarnavetiquetas()' class='close'></a>"
+  if(labelanterior) {
+    salida += "<a href='javascript:navetiquetas(-1);' class='anterior'></a>";
+  } else {
+    salida += "<span class='deshabilitado anterior'></span>";
+  }
+  if(labelsiguiente) {
+    salida += "<a href='javascript:navetiquetas(1);' class='siguiente'></a>";
+  } else {
+    salida += "<span class='deshabilitado siguiente'></span>";
+  }
+  salida += "<a href='javascript:navetiquetas(0);' class='inicio'>inicio</a>";
+  document.getElementById("navetiquetassel").innerHTML = salida;
+  salida = "<a href='/search/label/" + laetiqueta + "' target='_blank'>ver p&aacute;gina de etiquetas</a><a style='float: right;' href='/feeds/posts/summary/-/" +laetiqueta + "' target='_blank'>Suscribirse a " + laetiqueta + "</a><span class='simgvaga001 imgFeedER'></span>";
+  document.getElementById("navetiquetasfooter").innerHTML = salida;
+}
+
+// ENTRADAS RELACIONADAS EN LA SIDEBAR
+var entradasporpagina = 5;
+var ersflagfirst = 0;
+var urlanterior, urlsiguiente;
+function showpageetiquetas(json) {
+  var entry, posttitle, posturl, postimg, postcontent;
+  var salida = "";
+  urlanterior = "";
+  urlsiguiente = "";
+  for (var k = 0; k < json.feed.link.length; k++) {
+    if (json.feed.link[k].rel == 'previous') {
+      urlanterior = json.feed.link[k].href;
+    }
+    if (json.feed.link[k].rel == 'next') {
+      urlsiguiente = json.feed.link[k].href;
+    }
+  }
+  for (var i = 0; i < entradasporpagina; i++) {
+    if (i == json.feed.entry.length) { break; }
+    entry = json.feed.entry[i];
+    posttitle = getJSONtitle(entry);
+    posturl = getJSONurl(entry);
+    postcontent = getJSONcontent(entry,100);
+    postimg = getJSONthumbnail(entry);
+    salida += "<div class='erspaginaetiquetas'>";
+    salida += "<a href='" + posturl + "' target='_blank'><img alt='' src='" + postimg + "' /></a>";
+    salida += "<h6><a href='" + posturl + "' target='_blank'>" + posttitle + "</a></h6>";
+    salida += "<p>" + postcontent + "</p>";
+    salida += "</div>";
+  }
+  document.getElementById("ers").innerHTML = salida;
+  salida = "";
+  if(urlanterior) {
+    salida += "<a href='javascript:navpaginaetiquetas(-1);' class='anterior'>anterior</a>";
+  } else {
+    salida += "<span class='deshabilitado anterior'>anterior</span>";
+  }
+  if(urlsiguiente) {
+    salida += "<a href='javascript:navpaginaetiquetas(1);' class='siguiente'>siguiente</a>";
+  } else {
+    salida += "<span class='deshabilitado siguiente'>siguiente</span>";
+  }
+  salida += "<a href='javascript:navpaginaetiquetas(0);' class='inicio'>inicio</a>";
+  document.getElementById("ersnavegadionetiquetas").innerHTML = salida;
+}
+function navpaginaetiquetas(direccion){
+  var p, parametros;
+  if(direccion==-1) {
+    p = urlanterior.indexOf("?");
+    parametros = urlanterior.substring(p);
+  } else if (direccion==1) {
+    p = urlsiguiente.indexOf("?");
+    parametros = urlsiguiente.substring(p);
+  } else {
+    parametros = "?start-index=1&max-results=" + entradasporpagina + "&orderby=published&alt=json-in-script"
+  }
+  parametros += "&callback=showpageetiquetas";
+  incluirscript(parametros);
+}
+function incluirscript(parametros) {
+  if(ersflagfirst==1) {removerscript();}
+  document.getElementById("ers").innerHTML = "<div id='ersloadingscript'></div>";
+  document.getElementById("ersnavegadionetiquetas").innerHTML = "";
+  var archivofeeds = "http://vagabundia.blogspot.com/feeds/posts/default/-/" + etiquetasRelacionadas + parametros;
+  var nuevo = document.createElement('script');
+  nuevo.setAttribute('type', 'text/javascript');
+  nuevo.setAttribute('src', archivofeeds);
+  nuevo.setAttribute('id', 'LABELTEMPORAL');
+  document.getElementsByTagName('head')[0].appendChild(nuevo);
+  ersflagfirst = 1;
+}
+function removerscript() {
+  var el = document.getElementById("LABELTEMPORAL");
+  var padre = el.parentNode;
+  padre.removeChild(el);
+}
+onload=function() {
+  if(etiquetasRelacionadas=="animacion"  |  etiquetasRelacionadas=="wallpapers") {
+    document.getElementById("HTML19").style.display="none";
+  } else {
+    document.getElementById("HTML19").style.display="block";
+    navpaginaetiquetas(0);
+  }
+}
+
+// CONTADOR COMENTARIOS
+function ContarC(cual) {
+  var resto;
+  resto = contadorComentarios % 2;
+  if (resto == 0) {
+    document.getElementById(cual).className='comentarioPar';
+  } else {
+    document.getElementById(cual).className='comentarioImpar';
+  }
+}
+
+function emoticonComentario(cual) {
+  if(!document.getElementById) {return;} // no soportado
+  bodyText = document.getElementById(cual);
+  cualTexto = bodyText.innerHTML;
+  cualTexto = cualTexto.replace(/:\)/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-2iC25xeMEJA/TVo9irObZnI/AAAAAAAARl0/CCYN9hK_Bv0/s00/com-smile.gif" />');
+  cualTexto = cualTexto.replace(/:-\)/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-2iC25xeMEJA/TVo9irObZnI/AAAAAAAARl0/CCYN9hK_Bv0/s00/com-smile.gif" />');
+  cualTexto = cualTexto.replace(/:\]/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-2iC25xeMEJA/TVo9irObZnI/AAAAAAAARl0/CCYN9hK_Bv0/s00/com-smile.gif" />');
+  cualTexto = cualTexto.replace(/:-\]/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-2iC25xeMEJA/TVo9irObZnI/AAAAAAAARl0/CCYN9hK_Bv0/s00/com-smile.gif" />');
+  cualTexto = cualTexto.replace(/:'-\(/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-eEMuB_Nx3Dk/TVo9fiyUwqI/AAAAAAAARlY/N_TcQuooR8s/s00/com-cry.gif" />');
+  cualTexto = cualTexto.replace(/:\(\(/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-eEMuB_Nx3Dk/TVo9fiyUwqI/AAAAAAAARlY/N_TcQuooR8s/s00/com-cry.gif" />');
+  cualTexto = cualTexto.replace(/:'\(/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-eEMuB_Nx3Dk/TVo9fiyUwqI/AAAAAAAARlY/N_TcQuooR8s/s00/com-cry.gif" />');
+  cualTexto = cualTexto.replace(/:\(/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-4gCMc9jBHxo/TVo9h5WYWnI/AAAAAAAARls/NKXlE0mFYsQ/s00/com-sad.gif" />');
+  cualTexto = cualTexto.replace(/:-\(/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-4gCMc9jBHxo/TVo9h5WYWnI/AAAAAAAARls/NKXlE0mFYsQ/s00/com-sad.gif" />');
+  cualTexto = cualTexto.replace(/:\[/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-4gCMc9jBHxo/TVo9h5WYWnI/AAAAAAAARls/NKXlE0mFYsQ/s00/com-sad.gif" />');
+  cualTexto = cualTexto.replace(/:-\[/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-4gCMc9jBHxo/TVo9h5WYWnI/AAAAAAAARls/NKXlE0mFYsQ/s00/com-sad.gif" />');
+  cualTexto = cualTexto.replace(/:\P/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-g845yoTHJe4/TVo9kMMqJ4I/AAAAAAAARmA/hviHTSTeFqA/s00/com-tongue.gif" />');
+  cualTexto = cualTexto.replace(/:-\P/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-g845yoTHJe4/TVo9kMMqJ4I/AAAAAAAARmA/hviHTSTeFqA/s00/com-tongue.gif" />');
+  cualTexto = cualTexto.replace(/:D/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-jf9RAq-izNs/TVo9fxrNoXI/AAAAAAAARlc/cibbYC6qOFk/s00/com-lol.gif" />');
+  cualTexto = cualTexto.replace(/:-D/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-jf9RAq-izNs/TVo9fxrNoXI/AAAAAAAARlc/cibbYC6qOFk/s00/com-lol.gif" />');
+  cualTexto = cualTexto.replace(/xD/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-jf9RAq-izNs/TVo9fxrNoXI/AAAAAAAARlc/cibbYC6qOFk/s00/com-lol.gif" />');
+//  cualTexto = cualTexto.replace(/:\$/g,'<img alt="" width="15" height="15" src="http://3.bp.blogspot.com/-gk9JetSOVmQ/TVo9hdaAQ1I/AAAAAAAARlo/0oZws1FXQak/s00/com-oops.gif" />');
+  cualTexto = cualTexto.replace(/:-\$/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-gk9JetSOVmQ/TVo9hdaAQ1I/AAAAAAAARlo/0oZws1FXQak/s00/com-oops.gif" />');
+//  cualTexto = cualTexto.replace(/;\)/g,'<img alt="" width="15" height="15" src="http://3.bp.blogspot.com/-w6bLs_phgwc/TVo9een0X7I/AAAAAAAARlQ/gKIiEIx1mxs/s00/com-blink.gif" />');
+  cualTexto = cualTexto.replace(/;-\)/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-w6bLs_phgwc/TVo9een0X7I/AAAAAAAARlQ/gKIiEIx1mxs/s00/com-blink.gif" />');
+  cualTexto = cualTexto.replace(/;\]/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-w6bLs_phgwc/TVo9een0X7I/AAAAAAAARlQ/gKIiEIx1mxs/s00/com-blink.gif" />');
+  cualTexto = cualTexto.replace(/;-\]/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-w6bLs_phgwc/TVo9een0X7I/AAAAAAAARlQ/gKIiEIx1mxs/s00/com-blink.gif" />');
+  cualTexto = cualTexto.replace(/:-\I/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-SbbmF9peHJ0/TVo9g_CetaI/AAAAAAAARlk/avAhoGBpW8Y/s00/com-neutral.gif" />');
+  cualTexto = cualTexto.replace(/:-\|/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-SbbmF9peHJ0/TVo9g_CetaI/AAAAAAAARlk/avAhoGBpW8Y/s00/com-neutral.gif" />');
+  cualTexto = cualTexto.replace(/:\X/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-1PNumCDcGE4/TVo9iTeTukI/AAAAAAAARlw/OqsXvl53ZgE/s00/com-secreto.gif" />');
+  cualTexto = cualTexto.replace(/:-\X/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-1PNumCDcGE4/TVo9iTeTukI/AAAAAAAARlw/OqsXvl53ZgE/s00/com-secreto.gif" />');
+//  cualTexto = cualTexto.replace(/:\o/g,'<img alt="" width="15" height="15" src="http://2.bp.blogspot.com/-jFseiN3zgB0/TVo9jf_k9TI/AAAAAAAARl4/tEBILcqLa8o/s00/com-sorpresa1.gif" />');
+  cualTexto = cualTexto.replace(/:-\o/g,'<img alt="" width="15" height="15" src="../../../2.bp.blogspot.com/-jFseiN3zgB0/TVo9jf_k9TI/AAAAAAAARl4/tEBILcqLa8o/s00/com-sorpresa1.gif" />');
+  cualTexto = cualTexto.replace(/:\O/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-pj5tNGaNG7M/TVo9js2i2MI/AAAAAAAARl8/AgQ5DqhDC3U/s00/com-sorpresa2.gif" />');
+  cualTexto = cualTexto.replace(/:-\O/g,'<img alt="" width="15" height="15" src="../../../3.bp.blogspot.com/-pj5tNGaNG7M/TVo9js2i2MI/AAAAAAAARl8/AgQ5DqhDC3U/s00/com-sorpresa2.gif" />');
+  cualTexto = cualTexto.replace(/\|O/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-nhfWmDKRkEg/TVo9gbJQZsI/AAAAAAAARlg/CJHspoN9R2k/s00/com-mad.gif" />');
+  cualTexto = cualTexto.replace(/\|-\O/g,'<img alt="" width="15" height="15" src="../../../1.bp.blogspot.com/-nhfWmDKRkEg/TVo9gbJQZsI/AAAAAAAARlg/CJHspoN9R2k/s00/com-mad.gif" />');
+  cualTexto = cualTexto.replace(/:\/ /g,'<img alt="" width="15" height="15" src="../../../4.bp.blogspot.com/-BWd7fmhFN-M/TVo9e7sMF6I/AAAAAAAARlU/I6yooOrkaMI/s00/com-confuso.gif" />');
+  cualTexto = cualTexto.replace(/:-\/ /g,'<img alt="" width="15" height="15" src="../../../4.bp.blogspot.com/-BWd7fmhFN-M/TVo9e7sMF6I/AAAAAAAARlU/I6yooOrkaMI/s00/com-confuso.gif" />');
+  cualTexto = cualTexto.replace(/:S/g,'<img alt="" width="15" height="15" src="../../../4.bp.blogspot.com/-BWd7fmhFN-M/TVo9e7sMF6I/AAAAAAAARlU/I6yooOrkaMI/s00/com-confuso.gif" />');
+  bodyText.innerHTML = cualTexto;
+ }
+
+  // fechas relativas
+  function fecharelativa(dato) {
+    var salida = "";
+    dato=dato.replace("a.m.","AM");
+    dato=dato.replace("p.m.","PM");
+    var fechapost = new Date(dato).getTime()/1000;
+    var ahora = new Date().getTime()/1000;
+    if(fechapost<=ahora) {
+      var segundos = ahora - fechapost;
+      var minutos = (parseInt(segundos / 60)).toString();
+      var horas = (parseInt(segundos / 3600)).toString();
+      var dias = (parseInt(segundos / 86400)).toString();
+      var semanas = (parseInt(segundos / 604800)).toString();
+      var meses = (parseInt(segundos / 2678400)).toString();
+      var anios = (parseInt(segundos / 31536000)).toString();
+      if (minutos < 1) {
+        salida = "hace menos de un minuto";
+      } else if(minutos == 1) {
+        salida = "hace poco más de un minuto";
+      } else if(horas < 1) {
+        salida = "hace " + minutos + " minutos";
+      } else if(horas == 1) {
+        salida = "hace poco más de una hora";
+      } else if(dias < 1) {
+        salida = "hace " + horas + " horas";
+      } else if(dias == 1) {
+        salida = "hace poco más de un dia";
+      } else if(semanas < 1) {
+        salida = "hace menos de una semana";
+      } else if(semanas == 1) {
+        salida = "hace una semana";
+      } else if(meses < 1) {
+        salida = "hace " + dias + " días";
+      } else if(meses == 1) {
+        salida = "hace un mes";
+      } else if(anios < 1) {
+        salida = "hace " + meses + " meses";
+      } else if(anios == 1) {
+        salida = "hace un año";
+      } else {
+        salida = "hace " + anios + " años";
+      }
+    }
+    document.write(salida);
+  }
+
+  // REPARA PAGINACION COMENTARIOS
+  function commentpagination(url,comment){
+    var posturl= url;
+    var comment = comment;
+    cmpage = Math.ceil(comment/200);
+    if(cmpage>1) {
+      document.write('<a class="pagcomL" rel="nofollow" href="'+posturl+'?commentPage=1">primera página</a>');
+      for (var i = 1; i <= cmpage; i++) {
+        document.write('<a class="pagcomN" rel="nofollow" href="'+posturl+'?commentPage='+i+'">'+i+'</a>');
+      }
+      document.write('<a class="pagcomL" rel="nofollow" href="'+posturl+'?commentPage='+cmpage+'">última página</a>');
+    }
+  }
+
+  // COMENTARIOS ANIDADOS
+  function replyOriginal() {
+    var b = document.getElementById("comment-editor").getAttribute("src"), a = b.indexOf("#"), b = b.substring(a), a = document.getElementById("comment-editor");
+    a.parentNode.removeChild(a);
+    a = document.getElementById("replypost");
+    a.parentNode.removeChild(a);
+    b = "../../../www.blogger.com/comment-iframe3f15.html?blogID=" + (indexa + flagItem + indexb + b) + "";
+    a = document.createElement("iframe");
+    a.setAttribute("id", "comment-editor");
+    a.setAttribute("name", "comment-editor");
+    a.setAttribute("src", b);
+    a.setAttribute("height", "250px");
+    a.setAttribute("width", "100%");
+    a.setAttribute("frameborder", "0");
+    a.setAttribute("allowtransparency", "true");
+    document.getElementById("comment-form-thread").appendChild(a)
+  }
+  function reply(b) {
+    var a = document.getElementById("comment-editor").getAttribute("src"), c = a.indexOf("#"), a = a.substring(c), c = document.getElementById("comment-editor");
+    var boton = c.parentElement.getAttribute("id").replace("contenedorreply-", "replyboton-");
+    if(document.getElementById(boton).innerHTML=="Cancelar") {document.getElementById(boton).innerHTML="Responder";}
+    if(c.parentElement.getAttribute("id").indexOf(b)>=0) {replyOriginal();return;}
+    c.parentNode.removeChild(c);
+    a = "../../../www.blogger.com/comment-iframe3f15.html?blogID=" + (indexa + flagItem + indexb) + "&parentID=" + (b + a) + "";
+    c = document.createElement("iframe");
+    c.setAttribute("id", "comment-editor");
+    c.setAttribute("name", "comment-editor");
+    c.setAttribute("src", a);
+    c.setAttribute("height", "250px");
+    c.setAttribute("width", "100%");
+    c.setAttribute("frameborder", "0");
+    c.setAttribute("allowtransparency", "true");
+    document.getElementById("contenedorreply-" + b + "").appendChild(c);
+    document.getElementById("replyboton-"+b).innerHTML = "Cancelar";
+    document.getElementById("replypost") || (b = document.createElement("a"), b.innerHTML = "Agregar un comentario", b.setAttribute("id", "replypost"), b.setAttribute("class", "LoadMore"), b.setAttribute("href", "#"), b.setAttribute("onclick", "replyOriginal();return false;"), document.getElementById("comment-form-thread").appendChild(b))
+  }
+//]]>
+</script>
+<!-- LIGHTWINDOW -->
+<style type='text/css'>
+#lightwindow_overlay {display: none; position: fixed; top: 0px; left: 0px; width: 100%; height: 100px; z-index: 500;}
+#lightwindow {display: none; position: fixed; z-index: 999; line-height: 0px;}
+#lightwindow_contenedor {display: none; position: absolute; padding: 0; margin: 0;}
+#lightwindow_contenido {border-radius:5px;box-shadow:0 0 40px #DDD inset;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FF000000', EndColorStr='#FF333333');background-color:transparent;overflow:hidden;padding:15px;position:relative;z-index:0;}
+#lightwindow iframe {background-color:#EEE;}
+#lightwindow_loading  {background-color:#333;height:100%;left:0;position:absolute;top:0;width:100%;z-index:9999;}
+#lightwindow_loading img {float:left;margin:30px 0 0 50px;}
+#lightwindow_loading span {color:#DDD;float:left;font-size:14px;margin:42px 0 0 5px;}
+#lightwindow_loading span a {color:#FFF;cursor:pointer;}
+#lightwindow_loading_shim {display: none; left: 0px; position: absolute; top: 0px; width: 100%; height: 100%;}
+#lightwindow_cerrar {background-color: #000;border-radius: 10px;box-shadow: 0 0 17px #FFF inset;color: #AAA;cursor:pointer;display: block;font-family: Verdana;font-size: 14px;font-weight: bold;height: 22px;line-height: 22px;padding: 0 30px;position: absolute;right: 0;text-transform: lowercase;top: -25px;}
+#lightwindow_cerrar:hover {color:#FFF;background-color:#222}
+a.lightwindow {cursor:url(http://3.bp.blogspot.com/_hljKDuw-cxQ/SRW_3-NMIiI/AAAAAAAAIhU/Prj4Nj-4tx8/s00/magplus.gif), pointer !important;}
+a.lightwindow img {cursor:url(http://3.bp.blogspot.com/_hljKDuw-cxQ/SRW_3-NMIiI/AAAAAAAAIhU/Prj4Nj-4tx8/s00/magplus.gif), pointer !important;}
+.lwinline {display:none;}
+.lwinlinediv {line-height: normal;padding: 20px;}
+</style>
+<script type='text/javascript'>
+  function noMostrarErrores(){ return true }
+  // window.onerror=noMostrarErrores;
+</script>
+<!--[if IE]> <style type='text/css'> #lightwindow_cerrar {border:1px solid #333;} a.lightwindow {cursor:url("http://bolsanegra.net/scripts/lightWindow/magplus.cur") !important;} a.lightwindow img {cursor:url("http://bolsanegra.net/scripts/lightWindow/magplus.cur") !important;} .toVUM img, img.toVUM {cursor:url("http://bolsanegra.net/scripts/lightWindow/magplus.cur") !important;} #VUM-contenido {cursor:url("http://bolsanegra.net/scripts/lightWindow/magminus.cur") !important;} </style> <![endif]-->
+<script type='text/javascript'>
+//<![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-944342-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//]]>
+</script>
+<script type="text/javascript">var a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",k="?m=1";function l(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+k;case 2:return 0<=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera Mini")||-1!=a[b][c]("IEMobile")){var m=l();m&&window.location.replace(m)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="../../../apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("iframes-styles-bubble", function() {
+          if (window.iframes && iframes.open) {
+            iframes.open(
+                '../../../www.blogger.com/navbar050b.html?targetBlogID\07533571139\46blogName\75Vagabundia\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLACK\46layoutType\75LAYOUTS\46searchRoot\75http://vagabundia.blogspot.com/search\46blogLocale\75es_AR\46v\0752\46homepageUrl\75http://vagabundia.blogspot.com/\46targetPostID\0756124319751559582490\46blogPostOrPageUrl\75http://vagabundia.blogspot.com/2010/09/menu-vertical-desplegable-solo-con-css.html\46vt\75-1678474655732412905',
+                {
+                  container: "navbar-iframe-container",
+                  id: "navbar-iframe"
+                },
+                {
+                });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '../../../pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='fb-root'></div>
+<script type='text/javascript'>
+//<![CDATA[
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async=true;
+  js.src = "../../../connect.facebook.net/es_ES/all.js#xfbml=1&appId=141675619227132";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//]]>
+</script>
+<style type='text/css'>
+  .backlink-toggle-zippy,.expanded-backlink .backlink-toggle-zippy {
+background: transparent url(http://4.bp.blogspot.com/_hljKDuw-cxQ/S9FEmEx0OGI/AAAAAAAAPjo/4ChPkHC2v_0/s00/simgvaga001.png) no-repeat 0 0;float:left;height:11px;margin-top:3px;padding:0;width:11px;}
+  .backlink-toggle-zippy {background-position:-273px -101px;margin-right:7px;}
+  .expanded-backlink .backlink-toggle-zippy {background-position:-273px -90px;}
+  .blog-admin a {color:#7E92A6;font-weight:normal;font-size:11px;text-align:right;}
+  .blog-admin a:hover {color:#9EB2C6;font-weight:bold;}
+  .cloud-label-widget-content {text-align:center;}
+  .cloud-label-widget-content span {display:inline-table;line-height:1.2;padding:0 0 0 5px;vertical-align:middle;}
+  .cloud-label-widget-content span a {font-family:Tahoma;}
+  .cloud-label-widget-content span a:hover {color:#CDE !important;}
+  .label-size-1 a {color:#777;font-size:11px;}
+  .label-size-2 a {color:#999;font-size:13px;}
+  .label-size-3 a {color:#AAA;font-size:14px;font-family:Century Gothic !important;letter-spacing:-1px;}
+  .label-size-4 a {color:#CCC;font-size:17px;font-family:Comic Sans MS !important;letter-spacing:-1px;}
+  .label-size-5 a {color:#FFF;font-size:20px;font-family:Verdana !important;letter-spacing:-1px;}
+</style>
+<!-- CONTENEDOR SCRIPTS -->
+<div class='contenedorScripts section' id='contenedorScripts'><div class='widget HTML' id='HTML10'>
+<div class='widget-content'><script type="text/javascript">
+function leerScript(cual) {
+
+//  vagaplantillas
+URLBase="../../../dl.dropbox.com/u/21163834/SRC/index.html";
+//  URLBase="http://vagabundia.bolsanegra.net/jsBLOG/";
+
+  scriptLISTA=new Array(
+
+0,"",
+1,"acordeon.html",
+2,"animatedcollapse.html",
+3,"slidemenu.html",
+4,"aScroller.html",
+5,"attachBuscador.html",
+6,"CLICKsonidos.html",
+7,"contadorNavidad.html",
+8,"Crossfader.html",
+9,"dhonishow.html",
+10,"dialog_box.html",
+11,"dropdown_vaga.html",
+12,"demoMENUkithorizontal.html",
+13,"easyscroll.html",
+14,"fabtabulous.html",
+15,"fader_v.html",
+16,"ibox.html",
+17,"flipBook.html",
+18,"insertarYouTube.html",
+19,"lytebox.html",
+20,"marqueeUltimosPosts.html",
+21,"PopBox.html",
+22,"protoFlow.html",
+23,"protoFlowLOADER.html",
+24,"fixedDIV.html",
+25,"fixedDIV2.html",
+26,"randomPostNEW.html",
+27,"reflection.html",
+28,"reloj1.html",
+29,"reloj2.html",
+30,"scrollbarsIE.html",
+31,"scrollovers.html",
+32,"simpletabs.html",
+33,"domtab.html",
+34,"tab-view.html",
+35,"SlideshowSimpleV1.html",
+36,"SlideShowSimpleV2.html",
+37,"textsizer.html",
+38,"thumbnailviewer.html",
+39,"tipmage.html",
+40,"transition.html",
+41,"VagSDdemoAnima.html",
+42,"verificarFORM.html",
+43,"zoomy.html",
+44,"redesSCRIPT.html",
+45,"shake.html",
+46,"slider.html",
+47,"VagaVisorImagenes.html",
+48,"monkeyType.html",
+49,"formularioContactos.html",
+50,"dragdrop.html",
+51,"IElights.html",
+52,"floatbox.html",
+53,"pageGlimpseMiniaturas.html",
+54,"frog.html",
+55,"scriptTumblrDEMO.html",
+56,"validarFC.html",
+57,"slidingMenu.html",
+58,"FadingTooltips.html",
+59,"gvideobar.html",
+60,"scriptsTransiciones.html",
+61,"unitip.html",
+62,"dropDownMenuSW.html",
+63,"horinaja.html",
+64,"leerGDOCS.html",
+65,"ytreprochromeless.html",
+66,"misBanners.html",
+67,"vagatrivia.html",
+68,"prettify.html",
+69,"randomlistpost.html",
+70,"lightsoff1.html",
+71,"lightsoff2.html",
+72,"lightsoff3.html",
+73,"roundies.html",
+74,"bounce.html",
+75,"ajaxTwitter.html",
+76,"NeonLightsText.html",
+77,"dock.html",
+78,"noclick.html",
+79,"toseeher.html",
+80,"swfobject15.html",
+81,"1bit.html",
+82,"ImageCrossFadeRedux.html",
+83,"tomorrowagain.html",
+84,"zencodervideo.html",
+85,"snapfit.html",
+86,"canvas1.html",
+87,"scriptaculous_simpleslideshow.html",
+88,"scriptaculous_glider.html",
+89,"scriptaculous_gliderSOLAPAS.html",
+90,"scrollable2DEMO.html",
+91,"tinyfader.html",
+92,"jsonrecientes.html",
+93,"leertwitterjson.html",
+94,"demoSWsrc.html",
+95,"sliderman.html",
+96,"tripleflap.html",
+97,"demotimers1.html",
+98,"demotimers2.html",
+99,"leergadgetarchivos.html",
+100,"etiquetasviajson.html",
+101,"showpageposts.html",
+102,"showpagelabels.html",
+103,"leerpicsvidsfacebook.html",
+104,"JSphong.html",
+105,"googleAPIFeedsDemo.html",
+106,"curvycorners.html",
+107,"flowplayer-3.0.5.min.html",
+108,"relconthumbsslider.html",
+109,"mvm.html",
+110,"TTS.html",
+111,"expcon.html",
+112,"buzz.html",
+113,"spin.min.html",
+114,"showmosaicposts.html",
+115,"list.html",
+116,"mostrarVIDEOS.html",
+117,"rainbow-custom.min.html",
+118,"timeline-min.html",
+119,"timeline-run.html",
+120,"jquery.proquo.html",
+121,"stroll.min.html",
+122,"feedFacebook1.html",
+123,"feedFacebook2.html",
+124,"feedFacebook0.html",
+125,"FeedEk.html",
+126,"pinterest.html",
+127,"tinyscroller.html",
+128,"bigscreen.min.html",
+129,"FeedEk_mod.html",
+130,"boingpic.html",
+131,"jplay1scr.html",
+132,"jquery.hoverdir.html",
+133,"trunk8.html",
+134,"jquery.jfontsize-1.0.html",
+135,"showrecentcomments_avatar.html",
+
+1000,""
+);
+
+  regNum = cual * 2 +1;
+  document.write('<script src="' + URLBase + scriptLISTA[regNum] + '"><\/script>');
+}
+</script></div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='../../../accounts.google.com/ServiceLogin4a87.html?blogID=33571139&amp;widgetType=HTML&amp;widgetId=HTML10&amp;action=editWidget&amp;sectionId=contenedorScripts' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML10"));' target='configHTML10' title='Editar'>
+<img alt='' height='18' src='../../../img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<span id='skiplinks' style='display:none;'>
+<a href='#main' rel='nofollow'>skip to main </a> |
+  <a href='#sidebar' rel='nofollow'>skip to sidebar</a>
+</span>
+<div id='panelAdministracion' style='display:none;'>
+<span class='item-control blog-admin'>
+<a href='../../../accounts.google.com/ServiceLogin8b63.html' rel='nofollow'>Blogger Draft</a> | 
+    <a href='../../../accounts.google.com/ServiceLogin0328.html?blogID=136972551701248389' rel='nofollow'>Edicion Entradas</a> | 
+    <a href='../../../www.blogger.com/blog-options-basic2138.html?blogID=136972551701248389' rel='nofollow'>Configuración</a> | 
+    <a href='../../../accounts.google.com/ServiceLogin9597.html?blogID=136972551701248389' rel='nofollow'>Diseño</a> | 
+    <a href='javascript:void(0);' onclick='$(".quickedit").toggleClass("quickeditSI");'>quickEdit ON/OFF</a>
+</span>
+</div>
+<div id='content-wrapper'><div id='content-wrapper-inner'>
+<!-- pagina normal -->
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget HTML' id='HTML8'>
+<div class='widget-content'><div id="cse" style="width:100%;"></div>
+
+<style>
+.gsc-above-wrapper-area {display:none;}
+.gsc-wrapper {background-color:#000;color: #CCC;font-size: 12px;}
+.gsc-tabsArea {display: none;}
+.gsc-resultsHeader {display: none;}
+.gsc-results {border: 1px solid #345;margin: 5px;padding: 10px  !important;width: 95%  !important;}
+.gs-result .gs-title, .gs-result .gs-title * {background-color: #303941 !important;color: #A0A9B1 !important;font-family: Tahoma; font-size: 14px !important;height: 22px !important;line-height: 22px;padding: 0 5px;text-decoration: none !important;}
+.gsc-webResult .gsc-result {border-bottom: none !important;margin: 0;padding: 5px 0 !important;}
+.gs-result .gs-snippet {background-color: #000 !important;border-color: #ABC !important;color: #FFF;margin: 10px !important;}
+.gs-snippet b {color: #C0C9D1;border-bottom: 1px dotted #C0C9D1;}
+.gs-snippet b:last-child {color: #CCC;border: none;}
+.gs-result a.gs-visibleUrl, .gs-result .gs-visibleUrl {display: none;}
+.gsc-results .gsc-cursor-box {border: 1px solid #345;font-family: Tahoma;font-size: 14px;margin: 10px 0;padding: 5px;}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {color: #808991 !important;margin-right: 4px !important;padding: 2px 5px;text-decoration: none !important;}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {border-radius: 2px;box-shadow: 0 0 5px #FFF inset;background-color: #303941;color: #FFF !important;font-weight: bold !important;}
+.gsc-result-info {display:none !important;}
+.gsc-adBlock, .gsc-adBlock iframe {display:none !important;}
+</style></div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='../../../accounts.google.com/ServiceLogin00a2.html?blogID=33571139&amp;widgetType=HTML&amp;widgetId=HTML8&amp;action=editWidget&amp;sectionId=main' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' target='configHTML8' title='Editar'>
+<img alt='' height='18' src='../../../img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<div class='post hentry' id='post-6124319751559582490' itemscope='itemscope' itemtype='../../../schema.org/BlogPosting.html'>
+<meta content='http://2.bp.blogspot.com/_hljKDuw-cxQ/TDTwvkrBe7I/AAAAAAAAP-I/93pkLlddkoI/s00/324.png' itemprop='image_url'/>
+<meta content='33571139' itemprop='blogId'/>
+<meta content='6124319751559582490' itemprop='postId'/>
+<a id='6124319751559582490' name='6124319751559582490' rel='nofollow'></a>
+<div class='post-body entry-content' id='post-6124319751559582490' itemprop='articleBody'>
+<p><br />
+<style type="text/css">ul.sidenav {background:none repeat scroll 0 0 #CD853F;list-style:none outside none;margin:0 auto;padding:0;width:250px;border:1px solid #300;outline:1px solid #FFF;}ul.sidenav li a {background:url("../../../2.bp.blogspot.com/_hljKDuw-cxQ/TDTozJZHPHI/AAAAAAAAP9w/eMoISenpbDw/s00/323.png") no-repeat scroll 5px 7px transparent;border-bottom:1px solid #AD651F;color:#FFFFFF !important;display:block;font-size:18px !important;font-weight:normal !important;padding:15px 10px 10px 45px;text-decoration:none;width:195px;border-top:1px solid #300;}ul.sidenav li a:hover {background:url("../../../3.bp.blogspot.com/_hljKDuw-cxQ/TDToy1ihq3I/AAAAAAAAP9o/_Ldm495moq8/s00/322.png") no-repeat scroll 5px 7px #CD853F;border-top:1px solid #300;}ul.sidenav li span{display: none;}ul.sidenav li a:hover span {display:block;font-size:12px;padding:10px 0;margin:0 0 0 -30px;}</style><br />
+<ul class="sidenav">
+<li>
+<a href="#">Item 1<span>Duis diam ligula, luctus nec varius eu, interdum eget turpis. Ut convallis tempor tellus, sed tincidunt velit feugiat quis. Vivamus placerat ligula eu metus molestie tincidunt. Sed tempus porttitor eros vitae vehicula.</span></a>
+</li>
+<li>
+<a href="#">Item 2<span>Suspendisse tristique mauris vel odio pulvinar sit amet consectetur est bibendum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non sapien at tellus euismod feugiat.</span></a>
+</li>
+<li>
+<a href="#">Item 3<span>Morbi porttitor tristique lacus a malesuada. Morbi vel porta metus. Nunc laoreet libero eget erat blandit faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Integer quis nulla nec elit dignissim molestie sit amet vel quam?</span></a>
+</li>
+<li>
+<a href="#">Item 4<span>Tation utrum utrum abigo demoveo immitto aliquam sino aliquip.</span></a>
+</li>
+<li>
+<a href="#">Item 5<span><img width=220" src="../../../2.bp.blogspot.com/_hljKDuw-cxQ/TDTwvkrBe7I/AAAAAAAAP-I/93pkLlddkoI/s00/324.png"/></span></a>
+</li>
+<li>
+<a href="#">Item 6<span>Morbi pretium tincidunt bibendum. Nam ac viverra ipsum. Aenean rutrum lorem sit amet metus.</span></a>
+</li>
+<li>
+<a href="#">Item 7<span>Blandit turpis patria euismod at iaceo appellatio, demoveo esse.</span></a>
+</li>
+</ul>
+<br /></p>
+</div>
+
+    <table style="width: 100%;">
+        <tr>
+            <td style="text-align: right; font-weight: bold; color: #000000; font-size: 16px">
+                #Orden:</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td style="text-align: right; font-weight: bold; color: #000000; font-size: 16px">
+                &nbsp;
+                Sitio Web:</td>
+            <td>
+                Http://www.com21.com.ec&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" 
+                style="text-align: right; font-weight: bold; color: #000000; font-size: 20px">
+                GRACIAS POR SU COMPRA</td>
+        </tr>
+    </table>
+</body>
+
+<!-- Mirrored from vagabundia.blogspot.com/2010/09/menu-vertical-desplegable-solo-con-css.html by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 06 May 2013 04:32:35 GMT -->
+</html>

@@ -1,0 +1,125 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" EnableSessionState="True" CodeFile="Default.aspx.cs" Inherits="anapp_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Bienvenido</title>
+    <script type="text/javascript" src="js/jspagina/jquery-1.7.min.js"></script>
+<%--<script type="text/javascript" src="js/jspagina/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jspagina/superfish.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.easing.1.3.js"></script>--%>
+<script type="text/javascript" src="js/jspagina/jquery.mobile.customized.min.js"></script>
+<%--<script type="text/javascript" src="js/jspagina/scripts.js"></script>--%>
+<%--<script type="text/javascript" src="js/jspagina/easyTooltip.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.iosslider.min.js"></script>--%>
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+//]]>
+</script>
+<![endif]-->
+<!--[if lt IE 9]>
+	<style>
+	body {
+		min-width: 960px !important;
+	}
+	</style>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all"/>
+<%--<link rel="stylesheet" type="text/css" href="css/superfish.css" media="all"/>--%>
+<%--<link rel="stylesheet" type="text/css" href="css/camera.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/widgets.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/cloud-zoom.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print"/>--%>
+<%--<script type="text/javascript" src="js/jspagina/prototype.js"></script>
+<script type="text/javascript" src="js/jspagina/ccard.js"></script>
+<script type="text/javascript" src="js/jspagina/validation.js"></script>
+<script type="text/javascript" src="js/jspagina/builder.js"></script>
+<script type="text/javascript" src="js/jspagina/effects.js"></script>
+<script type="text/javascript" src="js/jspagina/dragdrop.js"></script>
+<script type="text/javascript" src="js/jspagina/controls.js"></script>
+<script type="text/javascript" src="js/jspagina/slider.js"></script>
+<script type="text/javascript" src="js/jspagina/js.js"></script>
+<script type="text/javascript" src="js/jspagina/form.js"></script>
+<script type="text/javascript" src="js/jspagina/translate.js"></script>
+<script type="text/javascript" src="js/jspagina/cookies.js"></script>
+<script type="text/javascript" src="js/jspagina/cloud-zoom.1.0.2.min.js"></script>
+<script type="text/javascript" src="js/jspagina/bootstrap.js"></script>
+<script type="text/javascript" src="js/jspagina/msrp.js"></script>--%>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/ds-sleight.js"></script>
+<script type="text/javascript" src="js/ie6.js"></script>
+<![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container"><div class="row"><div class="span12"><div class="main"><div class="col-main"><div class="padding-s"><div class="account-login">
+        <div class="col2-set"><div class="wrapper"><div class="registered-users-wrapper"><div class="col-2 registered-users"><div class="content">
+        <asp:Panel ID="pErrorListo" runat="server" Visible="false">
+            <table style="text-align: left; width:100%; color: #CC0000; background-color: #FF6F6F; padding-left: 5px; vertical-align: middle; padding-bottom: 2px; padding-top: 2px;">
+                <tr>
+                    <td style="padding: 5px" width="35px">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/anapp/images/error.png" 
+                    Height="30px" Width="30px" />
+                    </td>
+                    <td style="padding: 5px">
+                        <asp:Label ID="LblErrorListo" runat="server"></asp:Label>
+                    </td>
+                </tr>
+            </table>
+            </asp:Panel><h2>Cliente Registrado</h2><p>Si usted tiene una cuenta con nosotros, por favor ingrese.</p><ul class="form-list"><li>
+<div class="input-box">
+    <asp:TextBox ID="txtUsuario" runat="server" Height="30px" placeholder="Usuario" CssClass="input-text required-entry validate-password"></asp:TextBox>
+</div>
+</li>
+<li>
+<div class="input-box">
+<asp:TextBox ID="txtClave" runat="server" Height="30px" placeholder="Clave" 
+        CssClass="input-text required-entry validate-password" TextMode="Password"></asp:TextBox>
+</div>
+</li>
+</ul>
+
+<div class="buttons-set" style="margin: 0px 0 0 0;">
+<a href="recuperar.aspx" class="f-left" style="padding-left: 5px;">Has olvidado tu contraseña?</a>
+    <asp:Button ID="btnIngresar" runat="server" Text="Iniciar Sesión" 
+        CssClass="button bordebotones" 
+        style="color:White;background-color:#ABCD43;font-size:14px;font-weight:bold;height:37px;width:250px;" 
+        onclick="btnIngresar_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+</div>
+</div>
+</div>
+<div class="new-users-wrapper" style="margin-bottom: 0px;">
+<div class="col-1 new-users">
+<div class="content">
+<h2>Nuevo Cliente</h2>
+<p style="font-size:10px;">Al crear una cuenta en nuestra tienda, podrá realizar el proceso de compra más rápidamente, almacenar dirección de envío, ver y hacer un seguimiento de sus pedidos en su cuenta y más.</p>
+<div class="buttons-set">
+<asp:Button ID="Button1" runat="server" Text="Crear Cuenta" 
+        CssClass="button bordebotones" 
+        style="color:White;background-color:#ABCD43;font-size:14px;font-weight:bold;height:37px;width:250px;" 
+        PostBackUrl="~/anapp/registro.aspx" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </form>
+</body>
+</html>

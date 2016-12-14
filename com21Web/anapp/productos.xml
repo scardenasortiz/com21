@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Productos>
+  <Producto>
+    <Id>1</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/monitor-lcd-lg-1-2-6-P.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/m8ztbx.jpg</Ruta>
+    <Titulo>monitor LCD LG</Titulo>
+    <Fecha>23/03/2013 22:54:18</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>109</Cantidad>
+    <Precio>34,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>9</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/hp-ex487-mediasmart-home-server-9-2-5-P.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/hidv18.jpg</Ruta>
+    <Titulo>HP EX487 MediaSmart Home Server</Titulo>
+    <Fecha>16/04/2013 23:49:52</Fecha>
+    <Descuento>12</Descuento>
+    <Cantidad>90</Cantidad>
+    <Precio>1500,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>14</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://designsie.com/com21/hp-ex487-mediasmart-home-server-14-2-6.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/hidv18.jpg</Ruta>
+    <Titulo>HP EX487 MediaSmart Home Server</Titulo>
+    <Fecha>01/05/2013 2:40:06</Fecha>
+    <Descuento>12</Descuento>
+    <Cantidad>150</Cantidad>
+    <Precio>1200,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>13</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/mvixbox-wdn-2000-ultra-performance-2-bay-sata-nas-server-13-2-5.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/gzussl.jpg</Ruta>
+    <Titulo>MvixBOX (WDN-2000) Ultra-Performance 2-Bay SATA NAS Server</Titulo>
+    <Fecha>17/04/2013 0:44:29</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>20</Cantidad>
+    <Precio>800,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>16</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://designsie.com/com21/hp-ex487-mediasmart-home-server-16-2-6.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/hidv18.jpg</Ruta>
+    <Titulo>HP EX487 MediaSmart Home Server</Titulo>
+    <Fecha>01/05/2013 2:40:06</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>90</Cantidad>
+    <Precio>1500,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>10</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://designsie.com/com21/hp-ex487-mediasmart-home-server-10-2-5.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/hidv18.jpg</Ruta>
+    <Titulo>HP EX487 MediaSmart Home Server</Titulo>
+    <Fecha>16/04/2013 23:50:20</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>90</Cantidad>
+    <Precio>1500,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>18</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/mvixbox-wdn-2000-ultra-performance-2-bay-sata-nas-server-13-2-5.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/gzussl.jpg</Ruta>
+    <Titulo>MvixBOX (WDN-2000) Ultra-Performance 2-Bay SATA NAS Server</Titulo>
+    <Fecha>01/05/2013 2:40:06</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>20</Cantidad>
+    <Precio>800,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>19</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/monitor-lcd-lg-19-2-4-P.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN.png</Ruta>
+    <Titulo>monitor LCD LG</Titulo>
+    <Fecha>31/07/2013 14:07:25</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>109</Cantidad>
+    <Precio>34,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>12</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/hp-ex487-mediasmart-home-server-12-2-5.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/hidv18.jpg</Ruta>
+    <Titulo>HP EX487 MediaSmart Home Server</Titulo>
+    <Fecha>16/04/2013 23:55:15</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>61</Cantidad>
+    <Precio>1500,00</Precio>
+  </Producto>
+  <Producto>
+    <Id>15</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://designsie.com/com21/hp-ex487-mediasmart-home-server-15-2-4.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/hidv18.jpg</Ruta>
+    <Titulo>HP EX487 MediaSmart Home Server</Titulo>
+    <Fecha>01/05/2013 2:40:06</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>80</Cantidad>
+    <Precio>1500,00</Precio>
+  </Producto>
+</Productos>

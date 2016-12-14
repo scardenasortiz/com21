@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Servicios>
+  <Servicio>
+    <Id>1</Id>
+    <Titulo>Cableado Estructurado</Titulo>
+    <Ruta>http://localhost:2304/com21Web/upload/servicios/locupq.jpg</Ruta>
+    <Url>http://localhost:2304/com21Web/cableado-estructurado-1-0-0-S.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</DescripcionCorta>
+  </Servicio>
+  <Servicio>
+    <Id>4</Id>
+    <Titulo>Mantenimiento Equipos Computación</Titulo>
+    <Ruta>http://localhost:2304/com21Web/upload/servicios/jsi794.jpg</Ruta>
+    <Url>http://localhost:2304/com21Web/mantenimiento-equipos-computacion-4-0-0-S.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</DescripcionCorta>
+  </Servicio>
+  <Servicio>
+    <Id>3</Id>
+    <Titulo>Servicio de Cableado Electrico</Titulo>
+    <Ruta>http://localhost:2304/com21Web/upload/servicios/ek0gva.jpg</Ruta>
+    <Url>http://localhost:2304/com21Web/servicio-de-cableado-electrico-3-0-0-S.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</DescripcionCorta>
+  </Servicio>
+</Servicios>

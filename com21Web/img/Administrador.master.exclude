@@ -1,0 +1,200 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Administrador.master.cs" Inherits="master_Administrador" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Musicalisimo - Administrador</title>
+    <link href="../css/estilosMusicalisimo.css" rel="stylesheet" type="text/css" />
+    <link href="../css/musicalisimo.css" rel="stylesheet" type="text/css" />
+   <link href="../images/musicalisimo.png" rel='shortcut icon' type='image/x-icon' />   
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#zone-bar li em").click(function () {
+                var hidden = $(this).parents("li").children("ul").is(":hidden");
+
+                $("#zone-bar>ul>li>ul").hide()
+                $("#zone-bar>ul>li>a").removeClass();
+
+                if (hidden) {
+                    $(this)
+				   		.parents("li").children("ul").toggle()
+				   		.parents("li").children("a").addClass("zoneCur");
+                }
+            });
+        });
+	</script>
+    <style type="text/css">
+        .style1
+        {
+            height: 55px;
+        }
+         .Example_F { 
+-moz-box-shadow: 0 0 2px 2px #0379C9; 
+-webkit-box-shadow: 0 0 2px 2px #0379C9; 
+box-shadow: 0 0 2px 2px #0379C9; 
+}
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #CCCCCC">
+    <form id="form1" runat="server">
+    <div style="margin:auto; width:1024px; background-color: #FFFFFF;" 
+        id="informacion">
+        <table width="1024px" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td colspan="3" class="style1">
+                    <div id="informacion">
+                        <table style="width:100%;">
+                            <tr>
+                                <td style="font-family: Helvetica; font-size: 18px; font-weight: bold; color: #666666" 
+                                    width="250">
+                                    Musicalisimo
+                                    <a href="../Default.aspx" target="_blank" 
+                                        style="font-family: Helvetica; font-size: 12px; color: #000000">Ver Sitio</a>
+                                </td>
+                                <td>
+                                    &nbsp;</td>
+                                <td style="font-family: Helvetica; font-size: 11px; color: #000000; text-align: right; font-weight: bold;">
+                                    Bienvenido,
+                                    <asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="False" 
+                                        Font-Size="12px" ForeColor="Black">UserName</asp:LinkButton>
+&nbsp;|
+                                    <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="False" 
+                                        Font-Size="12px" ForeColor="Black" 
+                                        PostBackUrl="~/administrador/cerrarsesion.aspx">Cerrar Sesion</asp:LinkButton>
+&nbsp;|
+                                    <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="False" 
+                                        Font-Size="12px" ForeColor="Black">Ayuda</asp:LinkButton>
+                                </td>
+                            </tr>
+                        </table>
+                    </div></td>
+            </tr>
+            <tr>
+              
+                <td style="background-color:White;" valign="top">
+                <div style="font-family: Helvetica; font-size: 12px; color: #FFFFFF; height: 30px;" 
+                        id="informacion" >
+
+		<div id="zone-bar" style="border-style: 0; border-color: 0; border-width: 0px; background-color: #F1F1F1; margin:0px; padding:0px; height: 30px;">
+			<ul type="disc" style="border-style: 0; border-color: 0; border-width: 0px; padding: 0px; margin: 0px; height: 30px;">	
+                <li>
+					<a href="#"><span>
+						Informativa
+						<em class="opener-world">
+							<img src="../images/zonebar-downarrow.png" alt="dropdown" />
+						</em>
+					</span></a>
+					<ul class="worldsublist">
+					    <li><a href="nosotros.aspx">Nosotros</a></li>
+                        <li><a href="promociones.aspx">Promociones</a></li>
+                        <%--<li><a href="generos.aspx">Generos</a></li>--%>
+                        <li><a href="slide.aspx">Slide/Publicidad</a></li>
+                        <li><a href="suscripciones.aspx">Suscriptores</a></li>
+                        <li><a href="lugar.aspx">Lugar de Entrega</a></li>
+                        <li><a href="costoenvio.aspx">Costo de Envio</a></li>
+					</ul>
+				</li>              
+                <li>
+					<a href="#"><span>
+						Musica
+						<em class="opener-world">
+							<img src="../images/zonebar-downarrow.png" alt="dropdown" />
+						</em>
+					</span></a>
+					<ul class="worldsublist">
+					    <li><a href="albums.aspx">Cd Compac Disk</a></li>
+                        <li><a href="mp3.aspx">Mp3</a></li>
+                        <li><a href="canciones.aspx">Canciones</a></li>
+                        <li><a href="longplay.aspx">Long-Play</a></li>
+                        <li><a href="longplayStock.aspx">Stock Long-Play</a></li>
+                        <li><a href="albumsstock.aspx">Stock Música</a></li>
+					</ul>
+				</li>   
+                <li>
+					<a href="#"><span>
+						Videos/DVD
+						<em class="opener-world">
+							<img src="../images/zonebar-downarrow.png" alt="dropdown" />
+						</em>
+					</span></a>
+					<ul class="worldsublist">
+                        <%--<li><a href="Videosyoutube.aspx">Videos Youtube         </a></li>--%>
+                        <li><a href="dvdmusicales.aspx">Dvd(Musica/Peliculas)</a></li>
+                        <li><a href="dvdmusicalesStock.aspx">Stock DVD</a></li>
+					</ul>
+				</li>  
+                 <li>
+					<a href="#"><span>
+						Instrumentos/Accesorios/Libros
+						<em class="opener-world">
+							<img src="../images/zonebar-downarrow.png" alt="dropdown" />
+						</em>
+					</span></a>
+					<ul class="worldsublist">
+					    <li><a href="instrumentos.aspx">Instrumentos</a></li>
+                        <li><a href="instrumentosStock.aspx">Stock Instrumentos</a></li>
+                        <li><a href="accesorios.aspx">Accesorios</a></li>
+                        <li><a href="accesoriosStock.aspx">Stock Accesorios</a></li>
+                        <li><a href="cancioneros.aspx">Cancioneros</a></li>
+                        <li><a href="cancionerosStock.aspx">Stock Cancioneros</a></li>
+					</ul>
+				</li>  
+                <li>
+					<a href="#"><span>
+						Transaccion
+						<em class="opener-world">
+							<img src="../images/zonebar-downarrow.png" alt="dropdown" />
+						</em>
+					</span></a>
+					<ul class="worldsublist">
+					    <li><a href="transaccion.aspx">Visualizar</a></li>
+					</ul>
+				</li>      
+              </ul>
+		</div>
+		
+	</div>
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+           
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div align="center" id="informacionPie">
+    <div>
+       <asp:Image ID="Image3" runat="server" ImageUrl="~/images/musicalisimo.png" 
+        Width="50px" Height="35px" />
+       
+                                   <br />
+       
+                                   <asp:HyperLink ID="HyperLink1" runat="server" 
+                                       CssClass="Datos" 
+        NavigateUrl="~/Default.aspx" Font-Bold="True" Font-Underline="False" 
+        ForeColor="#333333" Target="_blank">www.musicalisimo.com.ec</asp:HyperLink>  
+    
+            </div></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div style="height:30px; " align="center">
+    <table cellpadding="10" cellspacing="0" width="90%">
+        <tr style="color:#ffffff; font-size: 10px; font-family:Verdana, Geneva, sans-serif; text-align:left">
+            <td align="center" 
+                    style="font-family: verdana; font-size: 10px; font-weight: bold; color: #333333">
+                    ® Todos los derechos reservados 2010 - Creado por
+                         <a href="http://www.soluwebsa.com/" 
+                        style="color: #333333; text-decoration: none;" target="_blank">Soluweb S.A.</a></td>
+            </tr>
+    </table>
+</div>
+    </form>
+</body>
+</html>

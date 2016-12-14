@@ -1,0 +1,92 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" EnableSessionState="True" CodeFile="recuperar.aspx.cs" Inherits="anapp_recuperar" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Recuperar Contraseña</title>
+    <script type="text/javascript" src="js/jspagina/jquery-1.7.min.js"></script>
+<%--<script type="text/javascript" src="js/jspagina/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jspagina/superfish.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.easing.1.3.js"></script>--%>
+<script type="text/javascript" src="js/jspagina/jquery.mobile.customized.min.js"></script>
+<%--<script type="text/javascript" src="js/jspagina/scripts.js"></script>--%>
+<%--<script type="text/javascript" src="js/jspagina/easyTooltip.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.iosslider.min.js"></script>--%>
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+//]]>
+</script>
+<![endif]-->
+<!--[if lt IE 9]>
+	<style>
+	body {
+		min-width: 960px !important;
+	}
+	</style>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all"/>
+<%--<link rel="stylesheet" type="text/css" href="css/superfish.css" media="all"/>--%>
+<%--<link rel="stylesheet" type="text/css" href="css/camera.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/widgets.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/cloud-zoom.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print"/>--%>
+<%--<script type="text/javascript" src="js/jspagina/prototype.js"></script>
+<script type="text/javascript" src="js/jspagina/ccard.js"></script>
+<script type="text/javascript" src="js/jspagina/validation.js"></script>
+<script type="text/javascript" src="js/jspagina/builder.js"></script>
+<script type="text/javascript" src="js/jspagina/effects.js"></script>
+<script type="text/javascript" src="js/jspagina/dragdrop.js"></script>
+<script type="text/javascript" src="js/jspagina/controls.js"></script>
+<script type="text/javascript" src="js/jspagina/slider.js"></script>
+<script type="text/javascript" src="js/jspagina/js.js"></script>
+<script type="text/javascript" src="js/jspagina/form.js"></script>
+<script type="text/javascript" src="js/jspagina/translate.js"></script>
+<script type="text/javascript" src="js/jspagina/cookies.js"></script>
+<script type="text/javascript" src="js/jspagina/cloud-zoom.1.0.2.min.js"></script>
+<script type="text/javascript" src="js/jspagina/bootstrap.js"></script>
+<script type="text/javascript" src="js/jspagina/msrp.js"></script>--%>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/ds-sleight.js"></script>
+<script type="text/javascript" src="js/ie6.js"></script>
+<![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container"><div class="row"><div class="span12"><div class="main"><div class="col-main"><div class="padding-s"><div class="account-login">
+        <div class="col2-set"><div class="wrapper"><div class="registered-users-wrapper"><div class="col-2 registered-users"><div class="content"><h2>Recuperar Contraseña</h2><p style="font-size:10px">Ingresa usuario o correo electrónico para poder enviar la contraseña de su cuenta.</p><ul class="form-list"><li>
+<div class="input-box">
+    <asp:TextBox ID="txtUusuario" runat="server" Height="30px" placeholder="Usuario o correo electrónico" CssClass="input-text required-entry validate-password"></asp:TextBox>
+</div>
+</li>
+</ul>
+
+<div class="buttons-set" style="margin: 0px 0 0 0;">
+    <asp:Button ID="btnIngresar" runat="server" Text="Enviar" CssClass="button bordebotones" style="color:White;background-color:#ABCD43;font-size:14px;font-weight:bold;height:37px;width:47%;" />
+    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" 
+        CssClass="button bordebotones" 
+        style="color:#ABCD43;background-color:#ffffff;font-size:14px;font-weight:bold;height:37px;width:47%;" 
+        PostBackUrl="~/anapp/Default.aspx" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "com21Web", "com21Web\", "{4C6F3165-77D6-45A0-8040-A12C74C51530}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}|com21DLL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/com21Web"
+		Debug.AspNetCompiler.PhysicalPath = "com21Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\com21Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/com21Web"
+		Release.AspNetCompiler.PhysicalPath = "com21Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\com21Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2304"
+		VWDDynamicPort = "false"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com21DLL", "com21DLL\com21DLL.csproj", "{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "com21SW", "com21SW\", "{ACE41A16-321F-4034-BAA5-CA75738E6AA4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}|com21DLL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/com21SW"
+		Debug.AspNetCompiler.PhysicalPath = "com21SW\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\com21SW\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/com21SW"
+		Release.AspNetCompiler.PhysicalPath = "com21SW\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\com21SW\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2333"
+		VWDDynamicPort = "false"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6F3165-77D6-45A0-8040-A12C74C51530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6F3165-77D6-45A0-8040-A12C74C51530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6F3165-77D6-45A0-8040-A12C74C51530}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6F3165-77D6-45A0-8040-A12C74C51530}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DF91E9-6DC7-45B5-8373-CCEEAB2B02B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE41A16-321F-4034-BAA5-CA75738E6AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE41A16-321F-4034-BAA5-CA75738E6AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE41A16-321F-4034-BAA5-CA75738E6AA4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE41A16-321F-4034-BAA5-CA75738E6AA4}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

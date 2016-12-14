@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Ofertas>
+  <Oferta>
+    <Id>7</Id>
+    <Titulo>Oferta 1</Titulo>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN_SERV.png</Ruta>
+    <Url>http://localhost:2304/com21Web/oferta-1-7-0-0-F.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </DescripcionCorta>
+  </Oferta>
+  <Oferta>
+    <Id>8</Id>
+    <Titulo>Oferta 2</Titulo>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN_SERV.png</Ruta>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/oferta-2-8-0-0-F.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </DescripcionCorta>
+  </Oferta>
+  <Oferta>
+    <Id>9</Id>
+    <Titulo>Oferta 3</Titulo>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN_SERV.png</Ruta>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/oferta-3-9-0-0-F.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </DescripcionCorta>
+  </Oferta>
+  <Oferta>
+    <Id>10</Id>
+    <Titulo>Oferta 4</Titulo>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN_SERV.png</Ruta>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/oferta-4-10-0-0-F.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </DescripcionCorta>
+  </Oferta>
+</Ofertas>

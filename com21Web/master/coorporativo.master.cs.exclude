@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using System.Xml;
+using System.Text.RegularExpressions;
+using System.Text;
+
+
+public partial class master_coorporativo : System.Web.UI.MasterPage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            this.publicidades.InnerHtml = cargapublicidad();
+            if (Request.Cookies["user"] != null)
+            {
+                HttpCookie bCookie = Request.Cookies["user"];
+                txtusuarios.Value = Server.HtmlEncode(bCookie.Value);
+            }
+            if (chbRecordarme.Checked == true)
+            {
+                HttpCookie aCookie = new HttpCookie("user");
+                aCookie.Value = txtusuarios.Value.Trim();
+                //aCookie.Expires = DateTime.Now.AddDays(1);
+                Response.Cookies.Add(aCookie);
+            }
+            if ((Request.Cookies["IdHMusicalisimo"] != null) && (Request.Cookies["UserHMusicalisimo"] != null) && (Request.Cookies["PassHMusicalisimo"] != null))
+            {
+                //UpdatePanel1.Visible = false;
+                //lbNombre.Text = "Hola, " + Request.Cookies["UserHMusicalisimo"].Value;
+                //Panel2.Visible = true;
+                ServicioCom21.ServicioCom21 _consulta = new ServicioCom21.ServicioCom21();
+                String iUsuario = Request.Cookies["IdHMusicalisimo"].Value;
+            }
+            else
+            {
+                //Panel2.Visible = false;
+                //carrito.Visible = false;
+            }
+        }
+    }
+    public string cargapublicidad()
+    {
+        try
+        {
+            string pagina = "Coorporativo";
+            String cadena = "<div style=\"padding-top: 10px;\">";
+
+            ServicioCom21.ServicioCom21 _consulta = new ServicioCom21.ServicioCom21();
+            DataSet ds = new DataSet();
+            ds = _consulta.consulta_publicidad_mostrar(pagina);
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                foreach (DataRow dr in ds.Tables[0].Rows)
+                {
+
+                    cadena = cadena + "<div style=\"margin-bottom: 5px; margin-left: 8px\"><img src=\"" + dr[3].ToString() + "\" width=\"280px\" /></div>";
+
+                }
+            }
+            cadena = cadena + "</div>";
+            return cadena;
+        }
+        catch { return null; }
+    }
+}

@@ -1,0 +1,218 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="sesion.master.cs" Inherits="master_coorporativo" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Musicalisimo</title>
+<link rel="stylesheet" type="text/css" href="../estilos.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:lightitalic,regular,bolditalic' rel='stylesheet' type='text/css'>
+		<!-- This includes the ImageFlow CSS and JavaScript -->
+		<link rel="stylesheet" href="imageflow.packed.css" type="text/css" />
+		<script type="text/javascript" src="../js/imageflow.packed.js"></script>
+<link rel="stylesheet" type="text/css" href="../estilos.css" />
+<link href="images/musicalisimo.png" rel='shortcut icon' type='image/x-icon' />
+<asp:ContentPlaceHolder id="head" runat="server">
+  
+    </asp:ContentPlaceHolder>
+<link href='http://fonts.googleapis.com/css?family=Lato:lightitalic,regular,bolditalic' rel='stylesheet' type='text/css'>
+	<!-- sliderman.js -->
+	<script type="text/javascript" src="../js/sliderman.1.2.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="../sliderman.css" />
+	<!-- /sliderman.js -->
+    <style type="text/css">
+        #contSlide
+        {
+            width: 781px;
+        }
+        .Example_Divs { 
+-moz-box-shadow: 0 0 1px 1px #6AA5F9; 
+-webkit-box-shadow: 0 0 1px 1px #6AA5F9; 
+box-shadow: 0 0 1px 1px #6AA5F9; 
+}
+    </style>
+       <script type="text/javascript">
+           function pop_window() {
+               var confirmWin = null;
+               confirmWin = window.open('terminos.aspx', 'Terminos', 'width=1000,height=350');
+           }
+        </script>
+</head>
+
+<body>
+<form id="Form1" runat="server">
+<asp:toolkitscriptmanager ID="Toolkitscriptmanager1" runat="server">
+</asp:toolkitscriptmanager>
+<div id="head">
+    <table style="width: 100%;">
+        <tr>
+            <td>
+              <div style="margin-left: 10px"><a href="Default.aspx"><asp:Image ID="Image4" runat="server" ImageUrl="~/images/logo.png" /></a></div>
+            </td>
+            <td>
+            <%--<div id="redes" align="right">
+<table>
+<tr>
+<td>Síguenos en </td>
+<td><a href="http://www.facebook.com/musicalisimoec" style="border:none;"><img src="images/face.png" width="25" height="24" /></a></td>
+<td><a href="https://twitter.com/#!/MUSICALISIMOec" style="border:none;">
+    <img src="images/twit.png" width="25" height="24" /></a></td>
+</tr>
+</table>
+</div>--%>
+<div class="menu">
+<ul>
+<li><a href="Default.aspx" class="active"><span> Inicio </span></a></li>
+<li><a href="nosotros.aspx"><span> Nosotros </span></a></li>
+<li><a href="http://www.ticketshow.com.ec/"><span> Tickets </span></a></li>
+<li><a href="promociones.aspx"><span> Promociones </span></a></li>
+<li><a href='suscripciones.aspx?a=1'><span> Registrate </span></a></li>
+<li><a href="contactos.aspx"><span> Contactos </span></a></li>
+</ul>
+</div>
+            </td>
+        </tr>
+        </table>
+
+
+</div>
+<div id="nav">
+  <ul id="menu">
+     <li class="normal"><a href="musicasg.aspx" class="nav1">Música</a></li>
+      <li class="normal"><a href="#" class="nav2">Cancioneros</a></li>
+      <li class="normal"><a href="longplays.aspx" class="nav3">Longplay</a></li>
+      <%--<li class="normal"><a href="youtubevideos.aspx" class="nav4">Videos Youtube</a></li>--%>
+      <li class="normal"><a href="videosg.aspx" class="nav5">DVDS</a></li>
+      <li class="normal"><a href="instrumentos.aspx" class="nav1">Instrumentos</a></li>
+      <li class="end"><a href="accesorios.aspx" class="nav2">Accesorios</a></li>
+      <%--<li class="end"><a href="accesorios.aspx" class="nav2">Accesorios</a></li>--%>
+       
+  </ul>
+ <div id="redes" align="right" style="padding-right: 25px; padding-top: 15px">
+<table>
+<tr>
+<td>Síguenos en </td>
+<td><a href="http://www.facebook.com/musicalisimoec" style="border:none;"><img src="images/face.png" width="25" height="24" /></a></td>
+<td><a href="https://twitter.com/#!/MUSICALISIMOec" style="border:none;">
+    <img src="images/twit.png" width="25" height="24" /></a></td>
+</tr>
+</table>
+</div>
+                   
+</div>
+<div style="background:url(images/bgPie1.jpg) bottom left no-repeat;" >
+<div style="background:url(images/bgPie2.png) bottom right no-repeat;" >
+<div style="background:url(images/bgFeed.png) repeat; width:950px; margin:auto; padding:10px 0;">   
+    <asp:HiddenField ID="txtusuarios" runat="server" />
+    <asp:HiddenField ID="txtclaves" runat="server" />
+    <asp:CheckBox ID="chbRecordarme" runat="server" Visible="False" 
+        Checked="True" />
+<div id="margenes">
+<div id="publicidades" runat="server" 
+        
+        
+        style="margin-left: 10px; background-position: center top; float:left; width:270px; margin-top: 90px; background-image: url('images/bgIzCorp.png'); background-repeat: no-repeat;">
+<div style="margin-top: 5px;">
+   <div align="center">
+   <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+    <ContentTemplate>
+    <asp:Panel ID="Panel1" runat="server">
+     <div style="float:right;  width: 250px; margin:20px 12px 0 0;">
+     <table style="width: 100%;">
+         <tr>
+             <td colspan="3" style="color: #0379C9; font-size: 17px; font-weight: bold; text-align: justify; vertical-align: text-top;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label13" runat="server" 
+                            Text="Inicia sesion"></asp:Label>
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td style="text-align: justify">
+                 <div style="font-family: tahoma; font-weight: bold; color: #000000; font-size:12px; margin-left: 15px;">
+                     <asp:Label ID="Label7" runat="server" Font-Bold="True" Text="Usuario:"></asp:Label>
+                 </div>
+             </td>
+             <td style="text-align: left">
+                 <div>
+                     <asp:TextBox ID="TextBox1" runat="server" BorderColor="#EA2227" 
+                         Font-Bold="True" Font-Size="10pt" Height="25px" 
+                         style="border: 1px solid #0379C9;" Width="142px"></asp:TextBox>
+                 </div>
+             </td>
+             <td>
+             </td>
+         </tr>
+         <tr>
+             <td style="text-align: justify">
+                 <div style="font-family: tahoma; font-weight: bold; color: #000000; font-size:12px; margin-left: 15px;">
+                 <asp:Label ID="Label6" runat="server" Text="Clave:" Font-Bold="True"></asp:Label></div>
+             </td>
+             <td style="text-align: justify">
+               <div>
+                 <asp:TextBox ID="TextBox2" runat="server" BorderColor="#EA2227" 
+                      style="border: 1px solid #0379C9;" Font-Bold="True" Font-Size="10pt" 
+                       TextMode="Password" Width="142px" Height="25px"></asp:TextBox></div>
+             </td>
+             <td>
+                
+             </td>
+         </tr>
+         <tr>
+             <td colspan="3" class="style4">
+                 <div style="float: left; margin-left: 15px; width: 74px;">
+                     <asp:Button ID="btnentrarsesion" 
+                         runat="server" Text="Entrar" BackColor="#EA2227" Font-Size="10pt" 
+                         ForeColor="White" Width="80px" onclick="btnentrar_Click" Height="25px" /></div>
+                 <div style="float: right; margin-right: 15px;"><asp:CheckBox ID="CheckBox1" runat="server" 
+                         Text="Recordarme" Checked="True" /></div>
+                 
+             </td>
+         </tr>
+         <tr>
+             <td colspan="3">
+                 <div style="float: left; vertical-align: text-top; text-decoration: none; font-size: 11px; margin-left: 15px;">
+                     <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#0379C9" BorderStyle="None"
+                         NavigateUrl="~/recuperaclave.aspx" Font-Underline="False">Olvido su Contraseña</asp:HyperLink></div>
+             </td>
+         </tr>
+     </table>
+     
+     
+ </div>
+    </asp:Panel>
+    </ContentTemplate>
+    </asp:UpdatePanel>
+ 
+    </div>
+    </div>
+</div>
+<div style="float:right; width:698px">
+<div style="padding:0 10px 0"><div style="width:680px; margin:auto;"><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></div></div>
+</div>
+<div class="clear"></div>
+</div>
+<div style="width:950px; margin:0px auto 0"><a href="http://www.ticketshow.com.ec/" style=" border:none;"><img src="images/publicidad2.jpg" width="950" height="90" /></a></div>
+</div>
+  
+
+</div> </div>
+<%--<div style="width:930px; margin:20px auto"><img src="images/publicidad2.jpg" width="930" height="90" /></div>--%>
+<div id="pie">
+<div class="pie">
+<div style="padding:5px 20px 0;">
+
+<li><a href="Default.aspx">Inicio</a></li>
+<li><a href="nosotros.aspx">Nosotros</a></li>
+<li><a href="http://www.ticketshow.com.ec/">Tickets</a></li>
+<li><a href="promociones.aspx">Promociones</a></li>
+<li><a href="contactos.aspx">Contactos</a></li>
+</div>
+<div style="padding:5px 0;"><asp:LinkButton ID="LinkButton1" runat="server" OnClientClick="pop_window();">Términos y Condiciones</asp:LinkButton></div>
+<div style="padding:5px 0;">® Todos los derechos reservados 2010</div>
+</div>
+</div>
+  
+</form>
+</body>
+</html>
+

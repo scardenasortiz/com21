@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Rows>
+  <Row>
+    <Id>11</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/hidv18.jpg</Ruta>
+    <Titulo>HP EX487 MediaSmart Home Server</Titulo>
+    <Fecha>16/04/2013 23:50:44</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>90</Cantidad>
+    <Precio>1500,00</Precio>
+    <Ident>IP</Ident>
+  </Row>
+  <Row>
+    <Id>13</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/mvixbox-wdn-2000-ultra-performance-2-bay-sata-nas-server-13-2-5.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/gzussl.jpg</Ruta>
+    <Titulo>MvixBOX (WDN-2000) Ultra-Performance 2-Bay SATA NAS Server</Titulo>
+    <Fecha>17/04/2013 0:44:29</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>20</Cantidad>
+    <Precio>800,00</Precio>
+    <Ident>IP</Ident>
+  </Row>
+  <Row>
+    <Id>1</Id>
+    <Descripcion>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</Descripcion>
+    <Url>http://localhost:2304/com21Web/monitor-lcd-lg-1-2-6-P.aspx</Url>
+    <Ruta>http://localhost:2304/com21Web/upload/productos/m8ztbx.jpg</Ruta>
+    <Titulo>monitor LCD LG</Titulo>
+    <Fecha>23/03/2013 22:54:18</Fecha>
+    <Descuento>0</Descuento>
+    <Cantidad>109</Cantidad>
+    <Precio>34,00</Precio>
+    <Ident>IP</Ident>
+  </Row>
+  <Row>
+    <Id>7</Id>
+    <Titulo>Oferta 1</Titulo>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN_SERV.png</Ruta>
+    <Url>http://localhost:2304/com21Web/oferta-1-7-0-0-F.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </DescripcionCorta>
+    <Ident>IO</Ident>
+  </Row>
+  <Row>
+    <Id>8</Id>
+    <Titulo>Oferta 2</Titulo>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN_SERV.png</Ruta>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/oferta-2-8-0-0-F.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </DescripcionCorta>
+    <Ident>IO</Ident>
+  </Row>
+  <Row>
+    <Id>10</Id>
+    <Titulo>Oferta 4</Titulo>
+    <Ruta>http://localhost:2304/com21Web/images/SIN_IMAGEN_SERV.png</Ruta>
+    <Url>http://localhost:2304/com21Web/http://localhost:2304/com21Web/oferta-4-10-0-0-F.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </DescripcionCorta>
+    <Ident>IO</Ident>
+  </Row>
+  <Row>
+    <Id>4</Id>
+    <Titulo>Mantenimiento Equipos Computación</Titulo>
+    <Ruta>http://localhost:2304/com21Web/upload/servicios/jsi794.jpg</Ruta>
+    <Url>http://localhost:2304/com21Web/mantenimiento-equipos-computacion-4-0-0-S.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</DescripcionCorta>
+    <Ident>IS</Ident>
+  </Row>
+  <Row>
+    <Id>3</Id>
+    <Titulo>Servicio de Cableado Electrico</Titulo>
+    <Ruta>http://localhost:2304/com21Web/upload/servicios/ek0gva.jpg</Ruta>
+    <Url>http://localhost:2304/com21Web/servicio-de-cableado-electrico-3-0-0-S.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</DescripcionCorta>
+    <Ident>IS</Ident>
+  </Row>
+  <Row>
+    <Id>1</Id>
+    <Titulo>Cableado Estructurado</Titulo>
+    <Ruta>http://localhost:2304/com21Web/upload/servicios/locupq.jpg</Ruta>
+    <Url>http://localhost:2304/com21Web/cableado-estructurado-1-0-0-S.aspx</Url>
+    <DescripcionCorta>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</DescripcionCorta>
+    <Ident>IS</Ident>
+  </Row>
+</Rows>

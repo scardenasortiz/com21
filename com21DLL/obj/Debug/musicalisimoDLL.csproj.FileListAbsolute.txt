@@ -1,0 +1,130 @@
+D:\MusicalisimoSLN\MusicalisimoSNL\westernDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\MusicalisimoSLN\MusicalisimoSNL\westernDLL\bin\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSLN\MusicalisimoSNL\westernDLL\bin\Debug\musicalisimoDLL.pdb
+D:\MusicalisimoSLN\MusicalisimoSNL\westernDLL\obj\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSLN\MusicalisimoSNL\westernDLL\obj\Debug\musicalisimoDLL.pdb
+D:\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+D:\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+D:\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+D:\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+D:\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+D:\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Steven\Desktop\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Zeus\Desktop\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Zeus\Desktop\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Zeus\Desktop\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zeus\Desktop\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Zeus\Desktop\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Zeus\Desktop\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Zeus\Desktop\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Zeus\Desktop\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zeus\Desktop\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Zeus\Desktop\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Steven\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Steven\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Steven\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steven\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Steven\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+H:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+H:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+H:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+H:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+H:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+D:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+D:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+D:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+D:\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+D:\Proyectos Soluweb\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+D:\Proyectos Soluweb\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+D:\Proyectos Soluweb\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos Soluweb\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+D:\Proyectos Soluweb\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Documents\ProyectoMusicalisimo\musicalisimo\musicalisimo\MusicalisimoSLN\MusicalisimoSLN\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Documents\Proyectos_Soluweb\Carpeta_Final\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Documents\Proyectos_Soluweb\Carpeta_Final\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Documents\Proyectos_Soluweb\Carpeta_Final\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Documents\Proyectos_Soluweb\Carpeta_Final\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Documents\Proyectos_Soluweb\Carpeta_Final\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+D:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+D:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+D:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+D:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Solu\Desktop\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Solu\Desktop\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Solu\Desktop\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Solu\Desktop\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Solu\Desktop\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Zeus\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Zeus\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Zeus\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zeus\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Zeus\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Soco\Desktop\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+D:\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+D:\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Pictures\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Pictures\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Pictures\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Pictures\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Pictures\Proyectos Soluweb\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Soco\Videos\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Soco\Videos\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Soco\Videos\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Soco\Videos\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Soco\Videos\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Music\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Music\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Music\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Music\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Music\MusicalisimoSNL\MusicalisimoSNL\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+D:\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+D:\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+D:\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+D:\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Proyectos Soluweb\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Proyectos Soluweb\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Proyectos Soluweb\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos Soluweb\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Proyectos Soluweb\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Music\18_09_2012-18-05\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Music\18_09_2012-18-05\MusicalisimoSNL\musicalisimoDLL\bin\Debug\musicalisimoDLL.pdb
+C:\Users\Erick\Music\18_09_2012-18-05\MusicalisimoSNL\musicalisimoDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Music\18_09_2012-18-05\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.dll
+C:\Users\Erick\Music\18_09_2012-18-05\MusicalisimoSNL\musicalisimoDLL\obj\Debug\musicalisimoDLL.pdb

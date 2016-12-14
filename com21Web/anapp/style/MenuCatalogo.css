@@ -1,0 +1,48 @@
+﻿    ul.sidenav 
+    {
+        /*background:none repeat scroll 0 0 #CD853F;*/
+        list-style:none outside none;
+        margin:0 auto;
+        padding:0;
+        /*width:250px;*/
+        max-width:100%;
+        /*border:1px solid #300;*/
+        outline:1px solid #FFF;
+    }
+    ul.sidenav li div
+    {
+        /*background:url("../../../2.bp.blogspot.com/_hljKDuw-cxQ/TDTozJZHPHI/AAAAAAAAP9w/eMoISenpbDw/s00/323.png") no-repeat scroll 5px 7px transparent;*/
+        border-bottom:1px solid #063388;
+        color:#8a8989 !important;
+        display:block;
+        font-size:14px !important;
+        font-weight:normal !important;
+        padding:5px 5px 5px 2px;
+        text-decoration:none;
+        /*width:195px;*/
+        max-width:100%;
+        /*border-top:1px solid #300;*/
+        font-family:Arial;
+     }
+     ul.sidenav li div:hover 
+     {
+         /*background:url("../../../3.bp.blogspot.com/_hljKDuw-cxQ/TDToy1ihq3I/AAAAAAAAP9o/_Ldm495moq8/s00/322.png") no-repeat scroll 5px 7px #CD853F;*/border-bottom:1px solid #063388;
+     }
+     ul.sidenav li span
+     {
+         display: none;
+     }
+     ul.sidenav li div:hover span 
+     {
+         display:block;
+         font-size:12px;
+         padding:10px 0;
+         margin:0 0 0 0px;
+     }
+     #Borderli
+     {
+         border-bottom:1px solid #300;
+     }
+     #Borderdiv
+     {
+     }

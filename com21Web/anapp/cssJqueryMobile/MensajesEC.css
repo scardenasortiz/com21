@@ -1,0 +1,36 @@
+﻿/* File Created: abril 2, 2014 */
+.info, .exito, .alerta, .error {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:13px;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../cssJqueryMobile/img/info.png');
+}
+.exito {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image: url('../cssJqueryMobile/img/exito.png');
+}
+.alerta {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../cssJqueryMobile/img/alerta.png');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../cssJqueryMobile/img/error.png');
+}
+.BtnCuadrado
+{
+    border-radius: 0em !important;
+    -webkit-border-radius: 0em !important;
+    -moz-border-radius: 0em !important;
+}

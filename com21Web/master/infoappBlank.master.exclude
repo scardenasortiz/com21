@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="infoappBlank.master.cs" Inherits="master_infocarrito" %>
+<%@ Register
+    Assembly="AjaxControlToolkit"
+    Namespace="AjaxControlToolkit"
+    TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<title id="titlepagina" runat="server"></title>
+<meta id="titlepagina1" runat="server" property="og:title" content="" />
+<meta property="og:type" content="company" />
+<meta id="url" runat="server" property="og:url" content="" />
+<meta property="og:image" content='http://com21.com.ec/images/slogan.png' />
+<meta id="descmeta" runat="server" content="" property="og:description" />
+<meta property="og:site_name" content="Com21 S.A" />
+<meta property="og:image:type" content="image/jpg" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<meta id="descp" runat="server" name="description" content="Default Description"/>
+<meta name="keywords" content="com21sa, com21, misión y visión de com21, misión, visión, nosotros, contactenos, quienes somos, telefonía, computo, servicios, catalogo de productos, catalogo de productos, suministros de impresión, registrate, inicio sesión, suministros de impresión guayaquil, suministros de impresión guayaquil ecuador,  ventas, venta online, electrico, pc, computadoras, cableado de red, cableado electrico, láptop, portátil, software, hardware, mouse, teclado, memorias, memoria, discos duros, disco duro, parlantes, línea blanca, refrigeradoras, neveras, tv, televisores, lcd, led, cocinas, aires acondicionados, cpu, programas, monitor, monitores, celulares, notebooks, table, cable de red, ups, tarjetas de red, tarjetas de video, mantenimiento, toner, cableado estructurado, suministros de oficina, suministros de computación, accesorios de computo, camaras de vigilancia, camaras digitales, camaras web, pen drive, flash memory, suministros xerox, hp, dell, toshiba, LG, samsung, acer, mabe, indurama, modem, coby"/>
+<meta name="summary" content="Compromiso y buen servicios para todos sus clientes" />
+  <meta name="Generator" content="Designsie" />
+  <meta name="Author" content="Designsie." />
+  <meta name="Origen" content="Com21 S.A" />
+  <meta name="Locality" content="Guayaquil, Ecuador" />
+  <meta name="author" content="designsie" />
+  <meta name="Language" content="es" />
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="alexaVerifyID" content="lePEQIViFY7NjZkOJ2x7ma53hKs" />
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-42436643-1']);
+    _gaq.push(['_setDomainName', 'com21.com.ec']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<link rel="icon" href="../images/logocom21icon.png" type="image/x-icon"/>
+<link href='../css/css056a.css?family=Playfair+Display' rel='stylesheet' type='text/css'/>
+<link href='../css/css4fe8.css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'/>
+<link href='../css/cssaa4a.css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'/>
+<script type="text/javascript" src="js/jspagina/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jspagina/superfish.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.mobile.customized.min.js"></script>
+<script type="text/javascript" src="js/jspagina/scripts.js"></script>
+<script type="text/javascript" src="js/jspagina/easyTooltip.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jspagina/jquery.iosslider.min.js"></script>
+<!--[if lt IE 9]>
+	<style>
+	body {
+		min-width: 960px !important;
+	}
+	</style>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/responsive.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/superfish.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/camera.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/widgets.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/cloud-zoom.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/print.css" media="print"/>
+<script type="text/javascript" src="js/jspagina/prototype.js"></script>
+<script type="text/javascript" src="js/jspagina/ccard.js"></script>
+<script type="text/javascript" src="js/jspagina/validation.js"></script>
+<script type="text/javascript" src="js/jspagina/builder.js"></script>
+<script type="text/javascript" src="js/jspagina/effects.js"></script>
+<script type="text/javascript" src="js/jspagina/dragdrop.js"></script>
+<script type="text/javascript" src="js/jspagina/controls.js"></script>
+<script type="text/javascript" src="js/jspagina/slider.js"></script>
+<script type="text/javascript" src="js/jspagina/js.js"></script>
+<script type="text/javascript" src="js/jspagina/form.js"></script>
+<script type="text/javascript" src="js/jspagina/translate.js"></script>
+<script type="text/javascript" src="js/jspagina/cookies.js"></script>
+<script type="text/javascript" src="js/jspagina/cloud-zoom.1.0.2.min.js"></script>
+<script type="text/javascript" src="js/jspagina/bootstrap.js"></script>
+<script type="text/javascript" src="js/jspagina/msrp.js"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="http://livedemo00.template-help.com/magento_42968/skin/frontend/default/theme451/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://livedemo00.template-help.com/magento_42968/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="http://livedemo00.template-help.com/magento_42968/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+<%--<script type="text/javascript">
+//<![CDATA[
+    Mage.Cookies.path = '/magento_42968';
+    Mage.Cookies.domain = '.livedemo00.template-help.com';
+//]]>
+</script>--%>
+<script type="text/javascript">//<![CDATA[
+    var Translator = new Translate([]);
+        //]]></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class=" catalog-category-view categorypath-servers-html category-servers">
+    <form id="form1" runat="server">
+    <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </ajaxToolkit:ToolkitScriptManager>
+<div class="wrapper en-lang-class">
+<noscript>
+<div class="global-site-notice noscript">
+<div class="notice-inner">
+<p>
+<strong>JavaScript seems to be disabled in your browser.</strong><br/>
+You must have JavaScript enabled in your browser to utilize the functionality of this website. </p>
+</div>
+</div>
+</noscript>
+<div class="page">
+<div class="header-container">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="header">
+<div class="clear"></div>
+<div class="search-cont">
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="nav-container">
+<div class="container">
+<div class="row">
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="main-container col2-right-layout">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+</div>
+</div>
+</div>
+
+<!--LIVEDEMO_00 -->
+
+
+    </form>
+</body>
+</html>

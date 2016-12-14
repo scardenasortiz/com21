@@ -1,0 +1,115 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using System.Xml;
+using System.Text.RegularExpressions;
+using System.Text;
+
+
+public partial class master_coorporativo : System.Web.UI.MasterPage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            
+            if (Request.Cookies["user"] != null)
+            {
+                HttpCookie bCookie = Request.Cookies["user"];
+                txtusuarios.Value = Server.HtmlEncode(bCookie.Value);
+            }
+            if (chbRecordarme.Checked == true)
+            {
+                HttpCookie aCookie = new HttpCookie("user");
+                aCookie.Value = txtusuarios.Value.Trim();
+                //aCookie.Expires = DateTime.Now.AddDays(1);
+                Response.Cookies.Add(aCookie);
+            }
+            if ((Request.Cookies["IdHMusicalisimo"] != null) && (Request.Cookies["UserHMusicalisimo"] != null) && (Request.Cookies["PassHMusicalisimo"] != null))
+            {
+                //UpdatePanel1.Visible = false;
+                //lbNombre.Text = "Hola, " + Request.Cookies["UserHMusicalisimo"].Value;
+                //Panel2.Visible = true;
+                ServicioCom21.ServicioCom21 _consulta = new ServicioCom21.ServicioCom21();
+                String iUsuario = Request.Cookies["IdHMusicalisimo"].Value;
+            }
+            else
+            {
+                //Panel2.Visible = false;
+                //carrito.Visible = false;
+            }
+        }
+    }
+    private int ValidaDatosEntrada()
+    {
+        int band = 0;
+        //Valido que Todos los controles tengan un valor
+        if (this.TextBox1.Text.Length == 0)
+        {
+            ScriptManager.RegisterStartupScript(UpdatePanel1, UpdatePanel1.GetType(), "click", "alert('Debes ingresar un usuario');", true);
+            return band = 0;
+        }
+        //Valido que Todos los controles tengan un valor
+        if (this.TextBox2.Text.Length == 0)
+        {
+            ScriptManager.RegisterStartupScript(UpdatePanel1, UpdatePanel1.GetType(), "click", "alert('Debes ingresar un password');", true);
+            return band = 0;
+        }
+        return band = 1;
+    }
+    protected void btnentrar_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            int salio = ValidaDatosEntrada();
+            if (salio == 1)
+            {
+                ServicioCom21.ServicioCom21 _consulta = new ServicioCom21.ServicioCom21();
+
+                int IdCliente = _consulta.obtener_id_usuario(TextBox1.Text, TextBox2.Text);
+
+                if (IdCliente == 0)
+                {
+
+                    ScriptManager.RegisterStartupScript(UpdatePanel1, UpdatePanel1.GetType(), "click", "alert('Los datos de usuario ingresados son incorrectos!!!');", true);
+                }
+                else
+                {
+                    HttpCookie aCookieIdHM = new HttpCookie("IdHMusicalisimo");
+                    HttpCookie aCookieUserHM = new HttpCookie("UserHMusicalisimo");
+                    HttpCookie aCookiePassHM = new HttpCookie("PassHMusicalisimo");
+
+                    aCookieIdHM.Value = IdCliente.ToString();
+
+                    Response.Cookies.Add(aCookieIdHM);
+
+                    aCookieUserHM.Value = TextBox1.Text;
+
+                    Response.Cookies.Add(aCookieUserHM);
+
+
+                    aCookiePassHM.Value = TextBox2.Text;
+
+                    Response.Cookies.Add(aCookiePassHM);
+
+                    Response.Redirect("Default.aspx");
+                }
+
+            }
+            else
+            {
+                return;
+            }
+        }
+        catch (Exception ex)
+        {
+            ScriptManager.RegisterStartupScript(UpdatePanel1, UpdatePanel1.GetType(), "click", "alert('Hubo un error en el ingreso del usuario, Por favor vuelva a intentarlo.!!!');", true);
+
+        }
+    }
+   
+}
